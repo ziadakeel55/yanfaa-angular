@@ -2099,7 +2099,7 @@
   "ahmedshebl": {
     "slug": "ahmedshebl",
     "name": "Ahmed Esam Shepl",
-    "avatar": "/assets/images/instructors/١٦٠ .png",
+    "avatar": "/assets/images/icons/default-avatar.svg",
     "bio": "- طالب بالفرقة الثانية بقسم الهندسة الميكانيكية بكلية الهندسة جامعة السويس.\n- Robotics &amp; Automation Instructor at IEEE SUSB.\n- Technical Manager at IEEE Suez University.\n- Founder of Oozma Kappa Robotics Team.\n- Former Head of Robotics &amp; Automation Club at Suez University.\n- شارك في العديد من المسابقات والمعارض المحلية والعالمية وحصل على المركز الأول على مستوى جمهورية مصر في أكثر من مسابقة في مجال الروبوتات منذ عام ٢٠ ١٦.\n- مثل مصر في المسابقة الدولية للروبوت IRC في دولة Uzbekistan.\n- شارك في تدريب أكثر من ٢٠ ٠ طالب في مجال الروبوتات.",
     "courses": [
       "Arduino_for_robotics"
@@ -2123,7 +2123,7 @@
   "AmrBishbeshy": {
     "slug": "AmrBishbeshy",
     "name": "Amr Bishbeshy",
-    "avatar": "/assets/images/instructors/default-author.png",
+    "avatar": "/assets/images/icons/default-avatar.svg",
     "bio": "مدرب معتمد من الهيئه الامريكيه للعلوم والتكنولوجيا \nخبره اكتر من ٧ سنوات في القطاع المصرفي وتمويل المشروعات",
     "courses": [
       "Personal_Finance_Management"

@@ -1,0 +1,98 @@
+<!-- Mobile Navigation Drawer -->
+<nav class="mobile_nav text-centernp" [class.opened]="isMobileMenuOpen">
+  <div class="close_icon menu_trigger p-3" (click)="toggleMobileMenu()">
+    <svg height="26px" version="1.1" viewbox="0 0 26 26" width="26px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+        <g fill="#252541" fill-rule="nonzero" id="Homepage" stroke="#252541" stroke-width="2" transform="translate(-733.000000, -1093.000000)">
+          <g id="close" transform="translate(734.000000, 1094.000000)">
+            <path d="M23.5,24 C23.372,24 23.244,23.951 23.146,23.854 L0.146,0.854 C-0.049,0.659 -0.049,0.342 0.146,0.147 C0.341,-0.048 0.658,-0.048 0.853,0.147 L23.853,23.147 C24.048,23.342 24.048,23.659 23.853,23.854 C23.756,23.951 23.628,24 23.5,24 Z" id="Path"></path>
+            <path d="M0.5,24 C0.372,24 0.244,23.951 0.146,23.854 C-0.049,23.659 -0.049,23.342 0.146,23.147 L23.146,0.147 C23.341,-0.048 23.658,-0.048 23.853,0.147 C24.048,0.342 24.048,0.659 23.853,0.854 L0.853,23.854 C0.756,23.951 0.628,24 0.5,24 Z" id="Path"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  
+  <!-- Logged-in Mobile Menu -->
+  <ul class="list text-center" *ngIf="currentUser$ | async as user; else guestMobile">
+    <li><a class="cta-button cta-button-transparent px-4 closeit" [routerLink]="getLink('/learning-paths')" (click)="toggleMobileMenu()">مسارات التعلم</a></li>
+    <li><a class="cta-button cta-button-transparent closeit" [routerLink]="getLink('/profile')" (click)="toggleMobileMenu()">حسابى</a></li>
+    <li><a class="cta-button cta-button-transparent closeit" href="javascript:void(0)" (click)="logout()">تسجيل الخروج</a></li>
+  </ul>
+  
+  <!-- Guest Mobile Menu -->
+  <ng-template #guestMobile>
+    <ul class="list text-center">
+      <li><a class="cta-button cta-button-transparent px-4 closeit" [routerLink]="getLink('/learning-paths')" (click)="toggleMobileMenu()">مسارات التعلم</a></li>
+      <li><a class="cta-button cta-button-transparent closeit" [routerLink]="getLink('/login')" (click)="toggleMobileMenu()">تسجيل دخول</a></li>
+      <li><a class="cta-button cta-button-border-trans closeit" [routerLink]="getLink('/register')" (click)="toggleMobileMenu()">انشاء حساب</a></li>
+    </ul>
+  </ng-template>
+</nav>
+
+<!-- Main Header -->
+<header class="main-header">
+  <div class="navigation_menu">
+    <div class="container custom-container">
+      <div class="nav-flex row align-items-center justify-content-between">
+        
+        <!-- Logo -->
+        <div class="logo-menu">
+          <a [routerLink]="getLink('/home')">
+            <div class="logo"></div>
+          </a>
+        </div>
+        
+        <!-- Search Bar -->
+        <div class="search-bar d-none d-md-block">
+          <form (submit)="onSearch($event)">
+            <input class="form-control shadow-none" name="search" placeholder="ابحث عن..." type="search" [(ngModel)]="searchQuery" />
+            <button class="btn" type="submit">ابحث</button>
+          </form>
+        </div>
+        
+        <!-- Header Menu -->
+        <div class="header-menu d-flex align-items-center">
+          
+          <!-- Guest Desktop Menu -->
+          <ul class="inline-list account list mb-0" *ngIf="!(currentUser$ | async)">
+            <li><a class="cta-button cta-button-transparent px-4" [routerLink]="getLink('/learning-paths')">مسارات التعلم</a></li>
+            <li><a class="cta-button cta-button-transparent" [routerLink]="getLink('/login')">تسجيل دخول</a></li>
+            <li><a class="cta-button cta-button-border-trans" [routerLink]="getLink('/register')">انشاء حساب</a></li>
+          </ul>
+          
+          <!-- Logged-in Desktop Menu -->
+          <ul class="inline-list account list mb-0" *ngIf="currentUser$ | async as user">
+            <li><a class="cta-button cta-button-transparent px-4" [routerLink]="getLink('/learning-paths')">مسارات التعلم</a></li>
+            <li><a class="cta-button cta-button-transparent px-4" [routerLink]="getLink('/profile')">حسابى</a></li>
+            <li><a class="cta-button cta-button-transparent px-4" href="javascript:void(0)" (click)="logout()">تسجيل الخروج</a></li>
+          </ul>
+          
+          <!-- Mobile Menu Trigger -->
+          <div class="menu_trigger p-3 mr-4" id="menu_trigger" (click)="toggleMobileMenu()">
+            <svg height="18px" version="1.1" viewbox="0 0 26 18" width="26px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+                <g fill="#252541" id="Homepage" transform="translate(-387.000000, -42.000000)">
+                  <g id="Group" transform="translate(387.000000, 42.000000)">
+                    <rect height="3" id="Rectangle" rx="1.5" width="26" x="0" y="0"></rect>
+                    <rect height="3" id="Rectangle" rx="1.5" width="26" x="0" y="7"></rect>
+                    <rect height="3" id="Rectangle" rx="1.5" width="26" x="0" y="15"></rect>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <!-- Offer Banner Section — controlled via assets/data/config.json -->
+  <section class="offer-banner seperated" *ngIf="offer.enabled && !hideOffer && !(currentUser$ | async)?.isSubscribed && !router.url.includes('/subscribe') && !router.url.includes('/checkout')" style="cursor: pointer;" [routerLink]="getLink('/subscribe')">
+    <div class="offer">
+      <h2>{{ offer.text }}</h2>
+      <a class="ml-2 cta-button cta-button-primary" [routerLink]="getLink('/subscribe')"> احصل على الخصم</a>
+    </div>
+  </section>
+</header>

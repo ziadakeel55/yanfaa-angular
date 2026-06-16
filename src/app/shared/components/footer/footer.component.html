@@ -1,0 +1,36 @@
+<footer class="text-center">
+  <div class="container">
+    <div class="text-center">
+      <ul class="inline-list list navMenu">
+        <li><a [routerLink]="getLink('/home')">الرئيسية</a></li>
+        <li><a [routerLink]="getLink('/subscribe')">الاسعار</a></li>
+        <li><a [routerLink]="getLink('/terms-and-conditions')">الشروط والأحكام</a></li>
+        <li><a [routerLink]="getLink('/privacy-and-policy')">سياسة الخصوصية</a></li>
+        <li><a [routerLink]="getLink('/y/support')">المساعدة</a></li>
+        <li><a [routerLink]="getLink('/coach-registration')"><span style="color:white;">انضم كمحاضر</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="inline-list list text-center socialMediaFooter">
+        <li>
+          <a target="_blank" href="https://www.facebook.com/yanfaacom">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/yanfaacom">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/company/yanfaacom">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="text-center footer_copyrights">
+      <p>جميع الحقوق محفوظة لموقع ينفع {{ currentYear }} &copy;</p>
+    </div>
+  </div>
+</footer>

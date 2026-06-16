@@ -1,0 +1,35 @@
+<div class="course-widget">
+  <span *ngIf="authService.isLoggedIn$ | async" (click)="toggleFavorite($event)" data-html="true" data-toggle="tooltip" class="fav-icon" [ngClass]="isFavorite ? 'text-success' : 'text-secondary'" title="أضف إلى المفضلة" style="cursor: pointer;"><svg aria-hidden="true" class="svg-inline--fa fa-heart fa-w-16" focusable="false" data-prefix="fa" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg></span>
+  <span *ngIf="isWatching" (click)="removeWatching($event)" class="close-icon text-secondary" data-html="true" data-toggle="tooltip" title="ازالة من الكورسات التي اشاهدها" style="cursor: pointer;"><svg class="svg-inline--fa fa-times fa-w-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg=""><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg></span>
+  <a class="d-block my-3 px-0" [routerLink]="getCourseLink()">
+    <div class="course_card">
+      <div class="course_card-img">
+        <img class="no-drag" [src]="course.image" [alt]="course.title" (error)="onImageError($event, 'course')">
+      </div>
+      <div *ngIf="isWatching" class="progress" style="height: 3px;">
+        <div class="progress-bar bg-success" role="progressbar" [style.width.%]="course.progress || 5"></div>
+      </div>
+      <div class="course_card-content">
+        <div class="course_card-title">
+          <h4>
+            <span *ngIf="stepNumber">({{ stepNumber }}) </span>{{ course.title }}
+          </h4>
+        </div>
+        <div class="course_card-info clearfix">
+          <div class="info_author">
+            <div class="img">
+              <img [alt]="course.instructor.name" class="no-drag" [src]="course.instructor.avatar || '/assets/images/icons/default-avatar.svg'" (error)="onImageError($event, 'author')">
+            </div>
+            <p>{{ course.instructor.name }}</p>
+          </div>
+          <div class="course_time">
+            <div class="course_time_icon">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="15px" version="1.1" viewBox="0 0 14 15" width="14px" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><g id="Homepage" stroke="#252541" stroke-width="1.5" transform="translate(-1024.000000, -1871.000000)"><g id="Group-3" transform="translate(0.000000, 1406.000000)"><g id="course-item" transform="translate(941.000000, 160.000000)"><g id="optimization-timer-1" transform="translate(84.000000, 306.000000)"><circle cx="6" cy="6.5" r="6"></circle><line x1="6.177" x2="8.121" y1="6.323" y2="4.379"></line><circle cx="6" cy="6.5" r="1"></circle></g></g></g></g></g></svg>
+              <p>{{ course.duration }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

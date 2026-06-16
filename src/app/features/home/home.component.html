@@ -1,0 +1,159 @@
+<section class="hero text-center" data-aos="fade-in">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-6 col-sm-12">
+        <div class="hero-content" *ngIf="!(currentUser$ | async)?.isSubscribed">
+          <h1>انضم الآن لمئات الآلاف من المبدعين العرب</h1>
+          <p>- مئات الدورات التدريبية "وأكثر" باشتراك واحد&nbsp;-</p>
+          <div class="cta">
+            <a class="ml-2 cta-button cta-button-primary" [routerLink]="getLink('/subscribe')">اشترك الآن
+            </a><a class="cta-button cta-button-dark" href="javascript:void(0)" (click)="scrollToPopular()">تصفح الكورسات</a>
+          </div>
+        </div>
+        <div class="hero-content" *ngIf="(currentUser$ | async)?.isSubscribed">
+          <h1 style="color: rgb(0, 211, 141);">يمكنك الآن الاستفادة من كل محتوى المنصة</h1>
+          <p style="color: rgb(0, 211, 141);">-بشكل غير محدود طول فترة اشتراكك-</p>
+          <div class="cta">
+            <a class="cta-button cta-button-dark" href="javascript:void(0)" (click)="scrollToPopular()">تصفح الكورسات</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-counter></app-counter>
+
+<section class="h_categ h_section_l">
+  <div class="container">
+    <div class="h_categ-head row mb-3">
+      <div class="col right text-md-center">
+        <h2 class="sub-heading">الأقسام</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="d-flex justify-content-md-center flex-wrap">
+      <div><a class="category-link active" [routerLink]="getLink('/browse')">كل الاقسام</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/Design')">الرسم والتصميم</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/Marketing')">التسويق</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/IT')">تكنولوجيا المعلومات</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/Business')">الاعمال</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/Photo_Film')">التصوير وصناعة الأفلام</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/Content')">صناعة المحتوى</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/MotionGraphics')">التحريك</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/Languages')">اللغات</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/edutainment')">مؤتمرات وبرامج</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/HR')">الموارد البشرية</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/Crafts')">موضة وصناعات يدوية</a></div>
+      <div><a class="category-link" [routerLink]="getLink('/category/fitness')">التغذية واللياقة البدنية</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="h_featured_courses h_section_l" id="user-courses" *ngIf="currentUser$ | async">
+  <div class="container" *ngIf="{ favs: favoriteCourses$ | async, watching: watchingCourses$ | async } as data">
+    <div class="myCourses text-right h_section_l" *ngIf="data.favs && data.favs.length > 0">
+      <h2 class="sub-heading">المفضلة</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" *ngFor="let course of data.favs">
+          <course-widget [course]="course"></course-widget>
+        </div>
+      </div>
+    </div>
+    <div class="myCourses text-right h_section_l" *ngIf="data.watching && data.watching.length > 0">
+      <h2 class="sub-heading">تشاهد الان</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" *ngFor="let course of data.watching">
+          <course-widget [course]="course" [isWatching]="true"></course-widget>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="h_featured_courses h_section_l" id="popular-courses">
+  <div class="container">
+    <div class="d-flex align-items-center">
+      <h2 class="sub-heading mx-3">الأكثر مشاهدة</h2>
+      <div class="dropdown sub-heading">
+        <div class="btn-group">
+          <button aria-expanded="false" aria-haspopup="true" class="btn btn-light main-btn dropdown-toggle d-flex justify-content-between align-items-center" data-toggle="dropdown" type="button" (click)="isDurationDropdownOpen = !isDurationDropdownOpen">{{ selectedDuration }} <span class="dropdown-toggle-icon text-left"></span></button>
+          <div class="dropdown-menu" [class.show]="isDurationDropdownOpen">
+            <a class="dropdown-item du-btn" [class.active]="selectedDuration === 'اسبوع'" href="javascript:void(0)" (click)="selectDuration('اسبوع')">اسبوع</a>
+            <a class="dropdown-item du-btn" [class.active]="selectedDuration === 'شهر'" href="javascript:void(0)" (click)="selectDuration('شهر')">شهر</a>
+            <a class="dropdown-item du-btn" [class.active]="selectedDuration === 'سنة'" href="javascript:void(0)" (click)="selectDuration('سنة')">سنة</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" *ngFor="let course of popularCourses">
+        <course-widget [course]="course"></course-widget>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="h_recent_courses h_section_l" *ngIf="recentCourses.length > 0">
+  <div class="container">
+    <h2 class="sub-heading">أضيف حديثا</h2>
+    <div><!----></div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" *ngFor="let course of recentCourses.slice(0, visibleRecentCoursesCount)">
+        <course-widget [course]="course"></course-widget>
+      </div>
+    </div>
+    <div class="my-5 row justify-content-center">
+      <button *ngIf="visibleRecentCoursesCount < recentCourses.length" class="cta-button cta-button-primary" type="button" (click)="loadMoreRecentCourses()"> المزيد من الكورسات </button>
+      <p *ngIf="visibleRecentCoursesCount >= recentCourses.length">لقد استعرضت كل المحتوى</p>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="new_password_wrapper row">
+    <div aria-hidden="true" class="modal micromodal-slide" id="new_password">
+      <div class="modal__overlay" data-micromodal-close="" tabindex="-1">
+        <div aria-labelledby="modal-1-title" aria-modal="true" class="modal__container col-md-4 col-sm-8 col-xs-12" role="dialog">
+          <header class="modal__header">
+            <h2 class="modal__title"> استعادة كلمة المرور </h2>
+            <button aria-label="Close modal" class="modal__close" data-micromodal-close=""></button>
+          </header>
+          <main class="modal__content" id="modal-2-content">
+            <form class="text-right ng-untouched ng-pristine ng-valid" novalidate="">
+              <div class="form-group">
+                <label for="passwordInput">كلمة المرور الجديدة</label>
+                <input aria-describedby="passwordHelp" class="form-control ng-untouched ng-pristine ng-valid" id="passwordInput" name="password" type="password">
+              </div>
+              <div class="form-group">
+                <label for="resetInputpassword">اعادة المرور الجديدة</label>
+                <input aria-describedby="passwordHelp" class="form-control ng-untouched ng-pristine ng-valid" id="resetInputpassword" name="repassword" type="password">
+              </div>
+              <button class="cta-button cta-button-primary" type="submit">تغيير</button>
+              <hr>
+              <a class="cta-button cta-button-transparent" href="javascript:void(0)">تسجيل دخول</a>
+            </form>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="invite_modal_wrapper row">
+    <div aria-hidden="true" class="modal micromodal-slide" id="invite_modal">
+      <div class="modal__overlay" data-micromodal-close="" tabindex="-1">
+        <div class="container col-md-2 col-sm-8 col-xs-12">
+          <div class="cookiesContent" id="cookiesPopup">
+            <button class="close" data-micromodal-close="">✖</button>
+            <img alt="ramadan" src="images/ramadan.png" style="width: 200px">
+            <p>لقد تلقيت دعوة لمشاهدة جميع الكورسات صالحة الى ١١ يوليو ٢٠٢٦</p>
+            <button class="accept">قبول</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

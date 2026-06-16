@@ -1,0 +1,18 @@
+.display-1 {
+    font-size: 100px !important;
+    font-weight: 700 !important;
+    color: #09d491 !important;
+    margin-bottom: 30px !important;
+}
+
+.text-muted {
+    font-size: 16px !important;
+    color: #6c757d !important;
+    font-weight: 500 !important;
+}
+
+.cta-button-primary {
+    padding: 18px 15px !important;
+    font-size: 16px !important;
+    border-radius: 100px !important;
+}

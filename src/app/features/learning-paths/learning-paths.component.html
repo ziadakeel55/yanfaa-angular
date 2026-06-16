@@ -1,0 +1,49 @@
+
+
+<section class="h_featured_courses h_section_l mt-5" id="all-paths" *ngIf="!pathSlug">
+  <div class="container">
+    <h2>جميع المسارات</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6" *ngFor="let path of allPaths">
+        <div class="course-widget">
+          <a [routerLink]="getLink('/learning-paths/' + path.slug)">
+            <div class="course_card">
+              <div class="course_card-img">
+                <img class="no-drag" [src]="path.image" [alt]="path.title" />
+              </div>
+              <div class="course_card-content">
+                <div class="course_card-title">
+                  <h4>{{ path.title }}</h4>
+                </div>
+                <div class="course_card-info clearfix">
+                  <div class="course_time">
+                    <div class="course_time_icon">
+                      <p> {{ path.coursesCount }} </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Path Detail View -->
+<div class="container mt-5" dir="rtl" *ngIf="pathSlug">
+  <div>
+    <section class="h_featured_courses h_section_2">
+      <h1>{{ activePath.title }}</h1>
+      <p class="lead" *ngIf="activePath.description">{{ activePath.description }}</p>
+      
+      <div class="row">
+        <div class="col-lg-4 col-md-6" *ngFor="let course of activePath.courses; let i = index">
+          <course-widget [course]="course" [stepNumber]="i + 1"></course-widget>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+

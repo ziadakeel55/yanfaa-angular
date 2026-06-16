@@ -1,0 +1,31 @@
+<div class="counter-section" #counterSection>
+  <div class="counter-container">
+    <div class="counter-row">
+      <ng-container
+        *ngFor="let counter of counters; let i = index; let last = last"
+      >
+        <div class="counter-card">
+          <div class="counter-header">
+            <div class="counter-number-container">
+              <h5 class="counter-number">
+                <span class="number-display">{{
+                  counter.current | number: "1.0-0"
+                }}</span
+                ><span class="counter-digit" *ngIf="counter.suffix">{{
+                  counter.suffix
+                }}</span>
+              </h5>
+            </div>
+            <div class="counter-title-container">
+              <h5 class="counter-title">{{ counter.title }}</h5>
+            </div>
+            <div class="counter-subtitle-container">
+              <h6 class="counter-subtitle">{{ counter.subtitle }}</h6>
+            </div>
+          </div>
+        </div>
+        <div class="counter-separator" *ngIf="!last"></div>
+      </ng-container>
+    </div>
+  </div>
+</div>

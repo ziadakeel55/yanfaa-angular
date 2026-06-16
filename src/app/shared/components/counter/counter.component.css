@@ -1,0 +1,213 @@
+.counter-section {
+  --color-primary: #252543;
+  --color-text-dark: rgb(41, 41, 46);
+  --color-border: rgb(223, 224, 235);
+  --color-white: rgb(255, 255, 255);
+  --color-text-light: rgb(109, 109, 125);
+  box-sizing: border-box;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0;
+  height: min-content;
+  justify-content: flex-start;
+  padding: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.counter-container {
+  box-sizing: border-box;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0;
+  height: min-content;
+  justify-content: flex-start;
+  max-width: 1200px;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+}
+
+.counter-row {
+  box-sizing: border-box;
+  align-content: center;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0;
+  height: min-content;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.counter-card {
+  box-sizing: border-box;
+  align-content: flex-start;
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: flex-start;
+  min-width: 250px;
+  padding: 0;
+  position: relative;
+  border-radius: 12px;
+}
+
+.counter-separator {
+  width: 1px;
+  height: 120px;
+  background-color: var(--color-border);
+  align-self: center;
+}
+
+.counter-header {
+  box-sizing: border-box;
+  align-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0;
+  height: min-content;
+  justify-content: flex-start;
+  padding: 30px 0;
+  position: relative;
+  width: 100%;
+}
+
+.counter-number-container,
+.counter-subtitle-container,
+.counter-title-container {
+  outline: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  transform: none;
+  width: 100%;
+}
+
+.counter-number {
+  font-family:
+    "IBM Plex Sans Arabic", "IBM Plex Sans Arabic Placeholder", sans-serif;
+  font-size: 49px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 62px;
+  text-align: center;
+  color: var(--color-primary);
+  margin: 0;
+  direction: ltr;
+  unicode-bidi: plaintext;
+  white-space: nowrap;
+  width: 100%;
+  overflow: visible;
+}
+
+.number-display {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: center;
+  display: inline-block;
+}
+
+.counter-digit {
+  display: inline-block;
+}
+
+.counter-title {
+  font-family:
+    "IBM Plex Sans Arabic", "IBM Plex Sans Arabic Placeholder", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+  color: var(--color-text-dark);
+  margin: 0;
+}
+
+.counter-subtitle {
+  font-family:
+    "IBM Plex Sans Arabic", "IBM Plex Sans Arabic Placeholder", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .counter-number {
+    font-size: 42px;
+    line-height: 52px;
+  }
+}
+
+@media (max-width: 991px) {
+  .counter-section {
+    padding: 0 40px;
+  }
+  .counter-header {
+    padding: 10px 0;
+  }
+  .counter-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .counter-card {
+    flex: 0 0 40%;
+    min-width: 200px;
+    margin-bottom: 5px;
+  }
+  .counter-separator {
+    display: none;
+  }
+  .counter-number {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .counter-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .counter-card {
+    flex: 0 0 100%;
+    min-width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 5px;
+  }
+  .counter-card:last-child {
+    border-bottom: none;
+  }
+  .counter-separator {
+    display: none;
+  }
+  .counter-number {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}

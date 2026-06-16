@@ -1,0 +1,153 @@
+<div class="course_content text-right" *ngIf="course">
+  <div class="course_header_content_wrapper">
+                  <!----><!---->
+                  <div class="row justify-content-end">
+                    <div class="course_sidebar p-5" [ngStyle]="sidebarStyle">
+                      <!---->
+                      <div class="course_sidebar_not_enrolled" *ngIf="!isSubscribed">
+                        <h1>{{ course.title }}</h1>
+                        <p class="mb-5 mt-4">{{ stripHtml(course.description) }}</p>
+                        <a class="w-100 cta-button cta-button-yellow mb-4" *ngIf="!isSubscribed" [routerLink]="getLink('/subscribe')">اشترك الآن </a><!---->
+                        <button *ngIf="isLoggedIn" 
+                                class="w-100 cta-button cta-button-outline mb-4" 
+                                [ngClass]="{'text-active': isFavorite}"
+                                (click)="toggleFavorite()">
+                          <svg aria-hidden="true" class="svg-inline--fa fa-heart fa-w-16" [ngClass]="{'text-success': isFavorite}" focusable="false" data-prefix="fa" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg> 
+                          اضف للمفضلة
+                        </button>
+                        <div class="course_info mt-5">
+                          <p><svg aria-hidden="true" class="svg-inline--fa fa-book fa-w-14" focusable="false" data-prefix="fa" data-icon="book" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg> عدد الدروس: {{ course.lessonsCount || 15 }} درس</p>
+                          <p><svg aria-hidden="true" class="svg-inline--fa fa-clock fa-w-16" focusable="false" data-prefix="fa" data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm57.1 350.1L224.9 294c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12v137.7l63.5 46.2c5.4 3.9 6.5 11.4 2.6 16.8l-28.2 38.8c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> مدة الكورس: {{ course.duration }}</p>
+                          <p><svg aria-hidden="true" class="svg-inline--fa fa-user fa-w-14" focusable="false" data-prefix="fa" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg> المدرب: <a [routerLink]="getLink('/instructors/' + getInstructorSlug(course.instructor.name))">{{ course.instructor.name }}</a></p>
+                        </div>
+                      </div>
+
+                      <div class="h-100 ng-star-inserted">
+                        <h3>محتوى الكورس</h3>
+                        <div class="video_list">
+                          <ul>
+                            <li class="list_item ng-star-inserted" *ngFor="let lesson of dummyLessons; let i = index" [ngClass]="{'active': i === currentLessonIndex}" (click)="changeLesson(i)" style="cursor: pointer;">
+                              <div class="row position-relative">
+                                <div class="title col-10">
+                                  <svg *ngIf="!isSubscribed && i > 0" class="svg-inline--fa fa-lock fa-w-14 text-muted ml-1" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"></path></svg>
+                                  {{ lesson.title }} 
+                                  <svg *ngIf="isSubscribed && i <= maxLessonReached" class="svg-inline--fa fa-check-circle fa-w-16 ng-star-inserted" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg>
+                                </div>
+                                <div class="time position-absolute">{{ lesson.duration }} دقيقة</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!---->
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                      <div class="pr-5 pt-5">
+                        <!---->
+                        <!-- Header for Subscribed -->
+                        <div class="d-flex justify-content-between align-items-center mb-5 course_header ng-star-inserted" *ngIf="isSubscribed">
+                          <h1 class="course_title mb-0">{{ course.title }}</h1>
+                          <div class="d-inline-flex align-items-center">
+                            <button class="fav-icon" [ngClass]="{'text-active': isFavorite}" (click)="toggleFavorite()">
+                              <svg aria-hidden="true" class="svg-inline--fa fa-heart fa-w-16" focusable="false" data-prefix="fa" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>
+                            </button>
+                          </div>
+                        </div>
+
+                        <!-- Header for Unsubscribed -->
+                        <div class="d-flex justify-content-between align-items-center mb-5 course_header_mobile" *ngIf="!isSubscribed">
+                          <div class="d-flex justify-content-between align-items-center w-100">
+                            <h1 class="course_title mb-0">{{ course.title }}</h1>
+                            <!---->
+                          </div>
+                          <!---->
+                          <div class="w-100 mt-4">
+                            <a class="w-100 cta-button cta-button-yellow mb-2" [routerLink]="getLink('/subscribe')">اشترك الآن
+                            </a>
+                            <button *ngIf="isLoggedIn" 
+                                    class="w-100 cta-button cta-button-outline" 
+                                    [ngClass]="{'text-active': isFavorite}"
+                                    (click)="toggleFavorite()">
+                              <svg aria-hidden="true" class="svg-inline--fa fa-heart fa-w-16" [ngClass]="{'text-success': isFavorite}" focusable="false" data-prefix="fa" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg> 
+                              اضف للمفضلة
+                            </button>
+                          </div>
+                        </div>
+                        <div class="course_header_video mb-5" style="position: relative; width: 100%; background-color: #000;">
+                          <div class="vjs-pip-container" [class.vjs-pip-active]="isPiPActive" style="width: 100%;">
+                            <div style="position: relative; display: block; max-width: 100%; padding-top: 56.25%;">
+                              <!-- Beautiful HTML5 Video Player -->
+                              <video *ngIf="currentVideoUrlString" 
+                                     controls 
+                                     controlsList="nodownload"
+                                     [src]="currentVideoUrlString" 
+                                     [poster]="course.image"
+                                     class="custom-video-player"
+                                     style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%; object-fit: contain; outline: none; background: #000; border-radius: 8px;">
+                              </video>
+                              
+                              <!-- Fallback placeholder if no stream URL is provided -->
+                              <div *ngIf="!currentVideoUrlString" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: white; flex-direction: column;">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-3 text-warning"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                                <h4>فيديو غير متوفر</h4>
+                                <p>هذا الدرس لا يحتوي على فيديو أو غير مسجل في قاعدة البيانات</p>
+                              </div>
+                            </div>
+                            <button *ngIf="isPiPActive" (click)="closePiP($event)" class="vjs-close-button vjs-control vjs-button vjs-pip-close-button" type="button" aria-disabled="false" title="Close" style="position: absolute; top: 10px; right: 10px; z-index: 2147483648; cursor: pointer;"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Close</span></button>
+                          </div>
+                        </div>
+                        <!-- Progress Bar (Only visible if subscribed) -->
+                        <div class="mb-5 ng-star-inserted" *ngIf="isSubscribed">
+                          <div class="progress">
+                            <div aria-valuemax="100" aria-valuemin="0" class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" [attr.aria-valuenow]="(maxLessonReached / dummyLessons.length) * 100" [style.width.%]="(maxLessonReached / dummyLessons.length) * 100">
+                              <span style="font-size: 20px">{{ (maxLessonReached / dummyLessons.length) * 100 | number:'1.0-0' }}%</span>
+                            </div>
+                          </div>
+                          <p class="mb-0 mt-2"> تم مشاهدة <b>{{ maxLessonReached }}</b> فيديو من اصل <b>{{ dummyLessons.length }}</b> فيديو فى هذا الكورس </p>
+                        </div>
+
+                        <!---->
+                        <div class="course_info course_sidebar_not_enrolled my-5 card py-3 d-mob">
+                          <p><svg aria-hidden="true" class="svg-inline--fa fa-book fa-w-14" focusable="false" data-prefix="fa" data-icon="book" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg> عدد الدروس: {{ course.lessonsCount || 15 }} درس</p>
+                          <p><svg aria-hidden="true" class="svg-inline--fa fa-clock fa-w-16" focusable="false" data-prefix="fa" data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm57.1 350.1L224.9 294c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12v137.7l63.5 46.2c5.4 3.9 6.5 11.4 2.6 16.8l-28.2 38.8c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> مدة الكورس: {{ course.duration }}</p>
+                          <p><svg aria-hidden="true" class="svg-inline--fa fa-user fa-w-14" focusable="false" data-prefix="fa" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg> المدرب: <a [routerLink]="getLink('/instructors/' + getInstructorSlug(course.instructor.name))">{{ course.instructor.name }}</a></p>
+                        </div>
+                        <!----><!---->
+                        <div class="course_details" [innerHTML]="safeCourseDetailsHtml">
+                        </div>
+                        <div class="course_materials">
+                          <!---->
+                        </div>
+                        <div class="course_author mt-5">
+                          <div class="author clearfix">
+                            <a class="author_header" [routerLink]="getLink('/instructors/' + getInstructorSlug(course.instructor.name))"><div class="image">
+                                <img [src]="course.instructor.avatar || '/assets/images/icons/default-avatar.svg'" [alt]="course.instructor.name" (error)="onImageError($event)">
+                              </div>
+                              <div class="info">
+                                <h5>{{ course.instructor.name }}</h5>
+                                <p>{{ course.instructor.title || 'مدرب معتمد' }}</p>
+                              </div></a>
+                          </div>
+                          <div class="author_bio">
+                            <p>{{ course.instructor.bio || 'مدرب معتمد بخبرات عملية واسعة يقدم لك أفضل الطرق والأساليب لمساعدتك على التعلم.' }}</p>
+                          </div>
+                          <div class="author_social" *ngIf="course.instructorSocialHtml">
+                            <ul class="inline-list list text-right pb-5" [innerHTML]="safeInstructorSocialHtml">
+                            </ul>
+                          </div>
+                        </div>
+                        <!---->
+                        <section class="h_featured_courses h_section_l mt-5">
+                          <h2 class="my-5">شاهد أيضًا</h2>
+                          <div class="row">
+<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-4" *ngFor="let relCourse of relatedCourses">
+  <course-widget [course]="relCourse"></course-widget>
+</div>
+</div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                  <!---->
+                </div>
+</div>

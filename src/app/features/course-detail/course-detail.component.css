@@ -1,0 +1,377 @@
+.course_header_content_wrapper {
+  position: relative;
+}
+
+.course_body h2 {
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.course_body .lead {
+  margin: 20px 0;
+}
+
+.progress {
+  height: 20px;
+  border-radius: 20px;
+}
+
+.progress .progress-bar {
+  background-color: #19b962;
+  font-size: 14px;
+}
+
+button.fav-icon {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  background: 0 0;
+  border: 1px solid;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 2;
+  outline: 0 !important;
+  box-shadow: none !important;
+  color: #252541;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+button.fav-icon:active,
+button.fav-icon:focus,
+button.fav-icon:hover {
+  color: #000;
+}
+
+button.fav-icon.text-active {
+  color: #19b962;
+}
+
+.course_sidebar {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, .05);
+  width: 33%;
+  position: relative;
+  height: 100vh;
+  right: 0;
+  background-color: #fff;
+  /* Restoring white background which might be necessary if body is not white */
+}
+
+.course_sidebar h3 {
+  font-weight: 700;
+  background-color: #f5f5f5;
+  padding: 3rem;
+  margin: -3rem -3rem 3rem;
+}
+
+.course_sidebar_not_enrolled h1 {
+  font-size: 25px;
+  color: #252541;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.course_sidebar .video_list {
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: transparent;
+  scrollbar-width: 5px;
+  height: calc(100% - 6rem);
+}
+
+.course_sidebar .video_list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.course_sidebar .video_list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.course_sidebar .video_list::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+.cta-button-outline {
+  color: #6b6b6b;
+  border: 1px solid #6b6b6b;
+}
+
+.cta-button-outline:active,
+.cta-button-outline:focus,
+.cta-button-outline:hover {
+  background-color: #6b6b6b;
+  color: #fff;
+}
+
+.d-mob {
+  display: none !important;
+}
+
+.course_sidebar_not_enrolled p.mt-4 {
+  color: #8894a4;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.course_info {
+  border-radius: 10px;
+}
+
+.course_info p {
+  margin: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8894a4;
+  line-height: 24px;
+}
+
+.course_info p i,
+.course_info p svg {
+  margin-left: 10px;
+  font-size: 16px;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+  color: inherit;
+  vertical-align: -2px;
+}
+
+.course_info p a.text-info {
+  color: #007bff !important;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px;
+}
+
+@media screen and (max-width: 990px) {
+  .course_sidebar {
+    display: none !important;
+  }
+
+  .d-mob {
+    display: block !important;
+  }
+
+  .course_info {
+    border-radius: 10px;
+  }
+
+  .course_header {
+    display: none !important;
+  }
+}
+
+.course_header_mobile {
+  display: none !important;
+}
+
+@media screen and (max-width: 990px) {
+  .course_header_mobile {
+    display: -webkit-box !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+}
+
+.course_sidebar_enrolled {
+  display: none;
+  overflow-y: auto;
+  max-height: 500px;
+  overflow-x: hidden;
+  scrollbar-width: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .course_sidebar_enrolled {
+    display: block;
+  }
+}
+
+.course_sidebar_enrolled::-webkit-scrollbar {
+  width: 5px;
+}
+
+.course_sidebar_enrolled::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.course_sidebar_enrolled::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+
+
+.video-js-fallback {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a2e;
+  color: white;
+  flex-direction: column;
+}
+
+.video-js-fallback i {
+  font-size: 48px;
+  color: #f6da75;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.video-js-fallback i:hover {
+  transform: scale(1.1);
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+::ng-deep .course_details ul {
+  list-style-type: disc;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+::ng-deep .course_details ol {
+  list-style-type: decimal;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+::ng-deep .course_details li {
+  margin-bottom: 10px;
+}
+
+::ng-deep .course_details li::marker {
+  color: #8894a4;
+  font-size: 1.3em;
+}
+
+::ng-deep .course_details ul li h3 {
+  display: inline;
+}
+
+#customPlayer {
+  cursor: pointer;
+}
+
+.vjs-text-track-overlay {
+  position: absolute;
+  inset: 0px;
+  margin: 1.5%;
+}
+
+.vjs-pip-container {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  background-color: black;
+}
+
+/* PiP Player Styles */
+.vjs-pip-container.vjs-pip-active {
+  position: fixed !important;
+  bottom: 10px !important;
+  right: 10px !important;
+  width: 300px !important;
+  height: 150px !important;
+  padding-top: 0 !important;
+  background-color: #000 !important;
+  z-index: 2147483647 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+
+@media (max-width: 990px) {
+  .vjs-pip-container.vjs-pip-active {
+    position: relative !important;
+    bottom: auto !important;
+    right: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    z-index: 1 !important;
+    box-shadow: none !important;
+    border-radius: 0;
+  }
+}
+
+.course_header_video video-js:not(.vjs-pip-active) .vjs-pip-close-button {
+  display: none !important;
+}
+
+/* Fix Big Play Button and Control Bar over YouTube poster */
+::ng-deep .vjs-big-play-button,
+::ng-deep .vjs-control-bar {
+  z-index: 2 !important;
+}
+
+/* Better styling for the close button */
+::ng-deep .vjs-pip-close-button {
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 28px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) !important;
+}
+::ng-deep .vjs-pip-close-button:hover {
+  background-color: #e0e0e0 !important;
+}
+::ng-deep .vjs-pip-close-button .vjs-icon-placeholder:before {
+  content: "X" !important;
+  font-family: sans-serif !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+::ng-deep .vjs-pip-close-button .vjs-control-text {
+  display: none !important;
+}
+
+.course_header_video video-js.vjs-pip-active .vjs-pip-close-button {
+  display: flex !important;
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  z-index: 2147483648 !important;
+}
+
+/* Force inner div to match parent height without forcing aspect ratio overflow */
+.vjs-pip-container.vjs-pip-active > div:first-child {
+  padding-top: 0 !important;
+  height: 100% !important;
+}
+
+.course_header_video video-js.vjs-pip-active .vjs-pip-close-button {
+  background: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}

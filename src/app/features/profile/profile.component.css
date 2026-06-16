@@ -1,0 +1,136 @@
+.refund {
+  padding: 0;
+}
+.accountInfoForm {
+  width: 100%;
+  font-size: 16px;
+}
+.accountInfoForm input {
+  font-size: 14px;
+}
+@media (max-width: 767.98px) {
+  .user-edits {
+    padding: 30px 15px;
+  }
+  .profile-wrapper {
+    padding: 0 !important;
+  }
+  .profile-wrapper .ProfileLinks .profile_list {
+    margin-top: 16px;
+  }
+  .profile-wrapper .ProfileLinks .profile_list a {
+    padding: 20px;
+  }
+}
+.profile-card {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  min-height: 100%;
+}
+.image-preview {
+  position: relative;
+  background-color: #fafafa;
+  border: 1px dashed silver;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .image-preview {
+    width: 160px;
+    height: 160px;
+  }
+}
+.image-preview .image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.image-preview .custom-upload-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.experience_card {
+  position: relative;
+  background-color: #fafafa;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin: 0 0 15px;
+}
+.experience_card .delete_experience {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+}
+a.cta-button-secondary {
+  background: #242543;
+  color: #fff;
+}
+.input-error {
+  border: 1px solid red;
+}
+input:focus {
+  outline: 0;
+}
+.img-container {
+  max-width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#cropperModal .modal__container {
+  max-width: 90%;
+  max-height: 90vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#cropperModal .modal__footer,
+#cropperModal .modal__header {
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  flex-shrink: 0;
+  background-color: #fff;
+}
+#cropperModal .modal__content {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  max-height: calc(90vh - 6rem);
+  overflow-y: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+#cropperModal .modal__content img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: block;
+}

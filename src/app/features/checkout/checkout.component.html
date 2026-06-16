@@ -1,0 +1,71 @@
+<section class="p-md-5 checkout_min-height">
+  <div class="container">
+    <div class="text-right row justify-content-center my-5">
+      <div class="col-md-8">
+        <div class="mb-5">
+          <div class="card p-5" style="border-radius: 10px;">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <h2 class="mb-0">{{ planName }}</h2>
+              <h3 class="mb-0">
+                <span class="text-decoration-line-through pl-2" *ngIf="originalPrice > currentPrice">{{ originalPrice }}
+                  جنيه</span>
+                <span class="font-weight-bold">{{ currentPrice }} جنيه</span>
+              </h3>
+            </div>
+            <p class="mb-0">استفد من مئات الدورات التدريبية في مختلف المجالات باشتراك واحد
+              كل المنصة بين يديك، متى ما أردت وبعدد مرات غير محدود ومن اي مكان في مصر</p>
+          </div>
+        </div>
+
+        <h2 class="mb-4">اختر طريقة للدفع</h2>
+
+        <div class="card p-5 mb-3 plan-card" style="border-radius: 10px;"
+          [style.borderColor]="paymentMethod === 'offline' ? '#20c997' : ''"
+          [style.borderWidth.px]="paymentMethod === 'offline' ? 1 : 1" [style.borderStyle]="'solid'">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <input class="form-check-input" id="EGrefCode" name="payment" type="radio" value="offline"
+                [(ngModel)]="paymentMethod">
+              <label class="form-check-label h4 px-4 mr-3" for="EGrefCode"> كود فوري باى </label>
+            </div>
+            <div class="d-flex align-items-center">
+              <img alt="fawrypay logo" src="./assets/images/payment/fawrypay.png" style="height: 30px; width: auto; margin: 0 5px; object-fit: contain;">
+            </div>
+          </div>
+        </div>
+
+        <div class="card p-5 mb-3 plan-card" style="border-radius: 10px;"
+          [style.borderColor]="paymentMethod === 'online' ? '#20c997' : ''"
+          [style.borderWidth.px]="paymentMethod === 'online' ? 1 : 1" [style.borderStyle]="'solid'">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <input class="form-check-input" id="card" name="payment" type="radio" value="online"
+                [(ngModel)]="paymentMethod">
+              <label class="form-check-label h4 px-4 mr-3" for="card"> البطاقة الائتمانية </label>
+            </div>
+            <div class="d-flex align-items-center">
+              <img alt="credit logo" src="./assets/images/payment/card.png" style="height: 30px; width: auto; margin: 0 5px; object-fit: contain;">
+              <img alt="meeza logo" src="./assets/images/payment/meeza.png" style="height: 30px; width: auto; margin: 0 5px; object-fit: contain;">
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="paymentMethod === 'online'">
+          <hr><br>
+          <div class="d-flex align-items-center cursor-pointer">
+            <input class="form-check-input" id="recurring" name="recurring" type="checkbox">
+            <label class="form-check-label px-4 h4 mb-0 mr-3" for="recurring"> تجديد تلقائي بنفس
+              السعر المخفض </label>
+          </div>
+        </div>
+
+        <div class="text-center mt-5 d-flex justify-content-center">
+          <button
+            class="cta-button cta-button-primary w-50 position-relative d-flex align-items-center justify-content-center"
+            type="button" (click)="onSubscribe()" [disabled]="!paymentMethod"
+            [ngClass]="{'opacity-50 cursor-not-allowed': !paymentMethod}"> اشترك الآن </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

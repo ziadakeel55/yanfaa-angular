@@ -1,0 +1,32 @@
+<app-loading-screen [isLoading]="isLoading"></app-loading-screen>
+<section class="login-page">
+  <div class="container">
+    <h2 class="text-center">تسجيل الدخول</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-xs-12">
+        <form class="text-right" novalidate (submit)="onSubmit($event)">
+          <div class="form-group">
+            <label for="loginInputEmail">البريد الالكتروني</label>
+            <input aria-describedby="emailHelp" class="form-control" id="loginInputEmail" name="email" type="email" [(ngModel)]="email" required>
+          </div>
+          <div class="form-group">
+            <label for="loginInputPassword">كلمة المرور</label>
+            <input class="form-control" id="loginInputPassword" name="password" type="password" [(ngModel)]="password" required>
+          </div>
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="form-group form-check">
+              <input class="form-check-input" id="loginCheck" type="checkbox" [(ngModel)]="rememberMe" name="rememberMe">
+              <label class="form-check-label" for="loginCheck">تذكرني</label>
+            </div>
+            <a [routerLink]="getLink('/reset-password')">نسيت كلمة المرور؟</a>
+          </div>
+          <div class="text-center">
+            <button class="cta-button cta-button-primary d-block w-100 rounded" type="submit">تسجيل دخول</button>
+          </div>
+          <span class="d-block text-center border-sides py-4 my-4">أو</span>
+          <div class="text-center"> ليس لديك حساب؟ قم <a [routerLink]="getLink('/register')">بالضغط هنا</a> لإنشاء حساب جديد </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

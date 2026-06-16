@@ -1,0 +1,52 @@
+.h_section_2 {
+  padding: 30px 0;
+}
+.path-step-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #09d491;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(9, 212, 145, 0.4);
+}
+.path-card {
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.path-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08) !important;
+  border-color: #09d491 !important;
+}
+.cta-button-primary {
+  background-color: #252543;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+.cta-button-primary:hover {
+  background-color: #09d491;
+  color: white;
+  text-decoration: none;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  padding-left: 8px;
+  color: #6c757d;
+}
+.breadcrumb-item a {
+  text-decoration: none;
+}
+.breadcrumb-item a:hover {
+  color: #09d491 !important;
+}

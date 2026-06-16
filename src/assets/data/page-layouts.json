@@ -1,0 +1,336 @@
+{
+  "home": {
+    "popular": [
+      "learning_english_level_one",
+      "Learning_German_Level_1",
+      "Learning_Spanish_A1",
+      "Marketeer_AtoZ",
+      "learning_english_level_Two",
+      "Facebook_Ads",
+      "Basics-of-photoshop",
+      "microsoft-excel",
+      "guide-to-Marketing"
+    ],
+    "recent": [
+      "Creating_Your_AI_Digital_Twin",
+      "Business_English_Level_1",
+      "Certified_Information_Systems_Auditor_CISA",
+      "NET_Development_Step_By_Step",
+      "Career_Seasons_Summer_Career_Progression",
+      "Personal_Finance_Management"
+    ]
+  },
+  "Design": {
+    "popular": [
+      "Basics-of-photoshop",
+      "professional_design_using_Canva",
+      "Basics-of-illustrator",
+      "Logo-Crafting",
+      "Fundamentals_of_blender",
+      "fundamentals_of_ui_ux",
+      "Elements_Of_Graphic_Design",
+      "Social-Media-Designs",
+      "Drawing-Fundamentals"
+    ],
+    "recent": [
+      "Principles_OfGraphic_Design",
+      "Motion_Graphics_For_Beginners",
+      "Fundamentals_of_ArtDirection",
+      "Brand_Strategy_Omar",
+      "Story_Selling",
+      "Introduction_To_Visual_Identity_Design_"
+    ]
+  },
+  "Marketing": {
+    "popular": [
+      "Marketeer_AtoZ",
+      "Facebook_Ads",
+      "guide-to-Marketing",
+      "Social-Media-Management-101",
+      "Copywriting_Skills_And_Technique",
+      "Fundamentals_of_SocialMedia_Marketing",
+      "personal_branding",
+      "SEO",
+      "Stop_Selling_Start_Storytelling"
+    ],
+    "recent": [
+      "How_To_Create_Winning_Ads",
+      "Ten_Steps_To_Gain_Customer_Trust",
+      "Ten_Steps_To_Start_Successful_Business",
+      "Stop_Selling_Start_Storytelling",
+      "Marketeer_AtoZ",
+      "Fundamentals_of_SocialMedia_Marketing"
+    ]
+  },
+  "IT": {
+    "popular": [
+      "Html",
+      "Python_Basics_For_Data_Analysis",
+      "Arduino_for_robotics",
+      "css",
+      "Basics_of_Microsoft_Power_BI",
+      "java",
+      "JavaScript",
+      "how_to_start_it_career",
+      "Advanced_Data_Analysis_using_Power_BI"
+    ],
+    "recent": [
+      "Certified_Information_Systems_Auditor_CISA",
+      "NET_Development_Step_By_Step",
+      "Networking_Fundamentals",
+      "Advanced_Data_Analysis_using_Power_BI",
+      "Data-Driven_Decision_By_Using_BI_Tools",
+      "Power_BI_Advanced"
+    ]
+  },
+  "Business": {
+    "popular": [
+      "microsoft-excel",
+      "financial_accounting_basics",
+      "microsoft_excel_v2",
+      "Sales-Skills",
+      "Intro_to_Freelance",
+      "Freelancing_on_Arabic_Platforms",
+      "Microsoft-word",
+      "Negotiation-Skills",
+      "Project_Management"
+    ],
+    "recent": [
+      "Freelancing_on_Arabic_Platforms",
+      "Start_Your_Small_Project_From_Idea_To_Profitability",
+      "Banking_Rights",
+      "Global_financial_inclusion",
+      "financial_inclusion",
+      "Agile_Project_Management"
+    ]
+  },
+  "Photo_Film": {
+    "popular": [
+      "Adobe-Premiere",
+      "Video_Editing_Using_Davinci_Resolve",
+      "CapCut_Video_Editing",
+      "Coloring_Using_Davinci_Resolve",
+      "Mobile_Photography",
+      "Basics_of_mobile_photography",
+      "Video_and_audio_editing_essentials_for_content_creators",
+      "script_writing",
+      "Advanced_Photo_Retouch_2"
+    ],
+    "recent": [
+      "CapCut_Video_Editing",
+      "Video_Production_Toolkit_Intermediate",
+      "Introduction_To_Video_Production",
+      "Coloring_Using_Davinci_Resolve",
+      "Sound_Recording",
+      "Portrait_Photography"
+    ]
+  },
+  "Content": {
+    "popular": [
+      "Reels_From_Scratch_To_Screen",
+      "Digital_Copywriting_basics",
+      "Content_Creation_By_AI",
+      "Digital_copywriting_Level_2",
+      "kareemelsayedvlogs",
+      "Voice_Over_And_Advertising",
+      "The_Art_Of_Content_Creation",
+      "Youtube_Channel_Creation",
+      "Writing-fundamentals-part-one"
+    ],
+    "recent": [
+      "Creating_Your_AI_Digital_Twin",
+      "Voice_Over_And_Advertising",
+      "Animation_Scriptwriting",
+      "The_Origins_Of_Scriptwriting",
+      "Content_Creation_By_AI",
+      "Podcast-Prodcution"
+    ]
+  },
+  "MotionGraphics": {
+    "popular": [
+      "Motion-Graphics-Fundamentals",
+      "Advanced_Motion_Graphics_2",
+      "Art_of_Motion_graphics",
+      "Advanced_Motion_Graphics",
+      "MOHO",
+      "Moho_Advanced_Rigging",
+      "VFX_in_Adobe_After_Effects",
+      "Drawing-fundamentals-for-animation",
+      "Animation-basics"
+    ],
+    "recent": [
+      "Advanced_Motion_Graphics_2",
+      "character_animation_using_rubberhose",
+      "Advanced_Motion_Graphics",
+      "VFX_in_Adobe_After_Effects",
+      "Moho_Advanced_Rigging",
+      "Character_animation_using_after_effects"
+    ]
+  },
+  "Languages": {
+    "popular": [
+      "learning_english_level_one",
+      "Learning_German_Level_1",
+      "Learning_Spanish_A1",
+      "learning_english_level_Two",
+      "Learning_French_A1",
+      "learning_english_level_Three",
+      "Learning_Spanish_A2",
+      "Learning_Turkish_A1",
+      "learning_english_level_four"
+    ],
+    "recent": [
+      "Business_English_Level_1",
+      "Learning_Turkish_B2",
+      "Learning_Turkish_B1",
+      "Learning_Turkish_A2",
+      "Learning_Turkish_A1",
+      "Learning_Russian_A2"
+    ]
+  },
+  "edutainment": {
+    "popular": [
+      "meetup1",
+      "otl_Fanny",
+      "elfounder",
+      "elfounder2"
+    ],
+    "recent": []
+  },
+  "HR": {
+    "popular": [
+      "Time_Management_And_Productivity",
+      "Communication_Skills",
+      "Time-Management",
+      "Body_Language_And_The_Art_Of_Influence",
+      "Emotional_Intelligence1",
+      "Negotiation_Skills",
+      "Hr_for_non_hr",
+      "How_To_Manage_And_Reduce_Stress",
+      "Human_Courtesy"
+    ],
+    "recent": [
+      "Career_Seasons_Summer_Career_Progression",
+      "Personal_Finance_Management",
+      "Time_Management_And_Productivity",
+      "Human_Courtesy",
+      "The_Stages_Of_Grief",
+      "Forgiving_in_a_style"
+    ]
+  },
+  "Crafts": {
+    "popular": [
+      "tailoring_womens_clothes_level_1%20",
+      "handmade_fundamental",
+      "tailoring_womens_clothes_level_2",
+      "tailoring_womens_clothes_level_4",
+      "tailoring_womens_clothes_level_3",
+      "tailoring_womens_clothes_level_5",
+      "tailoring_womens_clothes_level_7",
+      "tailoring_womens_clothes_level_6"
+    ],
+    "recent": [
+      "tailoring_womens_clothes_level_7",
+      "tailoring_womens_clothes_level_6",
+      "tailoring_womens_clothes_level_5",
+      "tailoring_womens_clothes_level_4",
+      "tailoring_womens_clothes_level_3",
+      "tailoring_womens_clothes_level_2"
+    ]
+  },
+  "fitness": {
+    "popular": [
+      "How_To_Create_Your_Diet_Plan",
+      "Program_Design",
+      "Muscle_Physiology_Basics",
+      "Nutritional_Tips_for_diabetics",
+      "Biomechanics_101",
+      "Pregnancy_Nutrition",
+      "Sports_Injuries",
+      "Healthy_Life_For_The_Child_And_Mother",
+      "Nutritional_Stages_For_Bariatric_Surgery"
+    ],
+    "recent": [
+      "How_To_Create_Your_Diet_Plan",
+      "Muscle_Physiology_Basics",
+      "Biomechanics_101",
+      "Pregnancy_Nutrition",
+      "Nutritional_Stages_For_Bariatric_Surgery",
+      "Program_Design"
+    ]
+  },
+  "English": {
+    "popular": [
+      "learning_english_level_one",
+      "learning_english_level_Two",
+      "learning_english_level_Three",
+      "learning_english_level_four",
+      "learning_english_level_seven",
+      "learning_english_level6",
+      "learning_english_level_five",
+      "learning_english_level_eight",
+      "Learning_english_level_twelve"
+    ],
+    "recent": [
+      "Learning_english_level_twelve",
+      "Learning_english_level_eleven",
+      "learning_english_level_%20ten",
+      "learning_english_level_nine",
+      "learning_english_level_eight",
+      "learning_english_level_seven"
+    ]
+  },
+  "German": {
+    "popular": [
+      "Learning_German_Level_1",
+      "Learning_German_Level2",
+      "Learning_German_Level_1_Revision",
+      "Learning_German_Level_3",
+      "Learning_German_Level_2_Revision"
+    ],
+    "recent": []
+  },
+  "French": {
+    "popular": [
+      "Learning_French_A1",
+      "Learning_French_B1",
+      "Learning_French_A2"
+    ],
+    "recent": []
+  },
+  "Spanish": {
+    "popular": [
+      "Learning_Spanish_A1",
+      "Learning_Spanish_A2",
+      "Learning_Spanish_A1_Revision",
+      "Learning_Spanish_B2",
+      "Learning_Spanish_A2_Revision",
+      "Learning_Spanish_B1",
+      "Learning_Spanish_B1_Revision"
+    ],
+    "recent": [
+      "Learning_Spanish_B2",
+      "Learning_Spanish_B1_Revision",
+      "Learning_Spanish_B1",
+      "Learning_Spanish_A2_Revision",
+      "Learning_Spanish_A2",
+      "Learning_Spanish_A1_Revision"
+    ]
+  },
+  "Russian": {
+    "popular": [
+      "Learning_Russian_A1",
+      "Learning_Russian_A2"
+    ],
+    "recent": []
+  },
+  "Turkish": {
+    "popular": [
+      "Learning_Turkish_A1",
+      "Learning_Turkish_A2",
+      "Learning_Turkish_B1",
+      "Learning_Turkish_B2"
+    ],
+    "recent": []
+  }
+}

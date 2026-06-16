@@ -1,0 +1,574 @@
+[
+  {
+    "slug": "GraphicDesigner",
+    "title": "مصمم جرافيك من البداية",
+    "image": "/assets/images/learning-paths/240093f1aabb2d419738012b1a89b114.jpg",
+    "coursesCount": "13 كورسات",
+    "href": "GraphicDesigner.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Basics-of-illustrator",
+      "The-Right-Steps-To-PERFECT-Composition",
+      "The-Geometry-of Color-Harmony",
+      "How-To-present-Your-Work",
+      "Introduction_To_Art_Direction",
+      "Art_direction_Level_2",
+      "Next-Gen_Design_With_AI",
+      "Design_Thinking2",
+      "Design_thinking",
+      "Fundamentals_of_ArtDirection",
+      "Introduction_To_Visual_Identity_Design_",
+      "Brand_Strategy_Omar"
+    ]
+  },
+  {
+    "slug": "photo_editor",
+    "title": "التعديل الاحترافي على الصور",
+    "image": "/assets/images/learning-paths/f256a2528f9b2772e4616518d13e6829.jpg",
+    "coursesCount": "3 كورسات",
+    "href": "photo_editor.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "lightroom_essentials",
+      "Advanced_Photo_Retouch_2"
+    ]
+  },
+  {
+    "slug": "social_media_designer",
+    "title": "مصمم سوشيال ميديا",
+    "image": "/assets/images/learning-paths/bb7de02ec29c615498219f2fb2fbae0c.png",
+    "coursesCount": "11 كورسات",
+    "href": "social_media_designer.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Basics-of-illustrator",
+      "The-Right-Steps-To-PERFECT-Composition",
+      "The-Geometry-of Color-Harmony",
+      "Social-Media-Designs",
+      "The_basics_of_learning_social_media_design",
+      "Photo-Manipulation",
+      "The-Basics-Of-Photo-Manipulation",
+      "Conceptual_Manipulation_advanced",
+      "How-To-present-Your-Work",
+      "professional_design_using_Canva"
+    ]
+  },
+  {
+    "slug": "logo_designer",
+    "title": "مصمم شعارات",
+    "image": "/assets/images/learning-paths/c7f11bb287862c0b0d1a8fe0d34e03b4.jpg",
+    "coursesCount": "10 كورسات",
+    "href": "logo_designer.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Basics-of-illustrator",
+      "The-Geometry-of Color-Harmony",
+      "The_Secret_Language_Of_Visual_Communication",
+      "Logo-Crafting",
+      "Secrets_of_logo_designs",
+      "How-To-present-Your-Work",
+      "A_Study_in_Brand_Building",
+      "Introduction_To_Visual_Identity_Design_",
+      "Story_Selling"
+    ]
+  },
+  {
+    "slug": "calligraphy_designer",
+    "title": "مصمم شعارات خط عربي",
+    "image": "/assets/images/learning-paths/31494327aa1c3a8fd191fd20048cc0cf.jpg",
+    "coursesCount": "17 كورسات",
+    "href": "calligraphy_designer.html",
+    "description": "",
+    "courses": [
+      "Basics-of-illustrator",
+      "The-Geometry-of Color-Harmony",
+      "The_Secret_Language_Of_Visual_Communication",
+      "Arabic-calligraphy-diploma",
+      "Calligraphy-For-Beginners",
+      "Basics_Of_Diwani_Calligraphy",
+      "Principles-of-Kufic-Geometric-Calligraphy",
+      "ADVANCED_KufiC_GEOMETRIC_CALLIGRAPHY",
+      "How-To-present-Your-Work",
+      "art_and_secrets_of_naskh_lettering",
+      "art_and_secrets_of_diwani_lettering",
+      "Farsi_font_In_design",
+      "Fundamentals_of_Ruqaa_Lettering",
+      "A_Study_in_Brand_Building",
+      "Secrets_of_logo_designs",
+      "Logo-Design",
+      "Story_Selling"
+    ]
+  },
+  {
+    "slug": "print_designer",
+    "title": "مصمم مطبوعات",
+    "image": "/assets/images/learning-paths/456c0cbdd46e8728faff598bd856a03a.jpg",
+    "coursesCount": "7 كورسات",
+    "href": "print_designer.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Basics-of-illustrator",
+      "adobe_indesign",
+      "Essentials_Of_Paper_Printing",
+      "How-To-present-Your-Work",
+      "Secrets_Of_Digital_Printing",
+      "Fundamentals_of_offset_printing"
+    ]
+  },
+  {
+    "slug": "ux_ui_designer",
+    "title": "مصمم UX/UI",
+    "image": "/assets/images/learning-paths/1aebde4dcb7fa206c966e740953b5e4b.jpg",
+    "coursesCount": "3 كورسات",
+    "href": "ux_ui_designer.html",
+    "description": "",
+    "courses": [
+      "The-Geometry-of Color-Harmony",
+      "fundamentals_of_ui_ux",
+      "How-To-present-Your-Work"
+    ]
+  },
+  {
+    "slug": "junior_animator",
+    "title": "مصمم رسوم متحركة مبتدئ",
+    "image": "/assets/images/learning-paths/97120ce7b40a3919771bdf4c495513d1.jpg",
+    "coursesCount": "9 كورسات",
+    "href": "junior_animator.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Basics-of-illustrator",
+      "The-Geometry-of Color-Harmony",
+      "Drawing-fundamentals-for-animation",
+      "Motion-Graphics-Fundamentals",
+      "Art_of_Motion_graphics",
+      "Advanced_Motion_Graphics",
+      "Advanced_Motion_Graphics_2",
+      "Advanced_Motion_Graphics_3"
+    ]
+  },
+  {
+    "slug": "digital_artist",
+    "title": "رسام ديجتال",
+    "image": "/assets/images/learning-paths/c605b64d7b2d200854f8b0b999a2585a.jpg",
+    "coursesCount": "11 كورسات",
+    "href": "digital_artist.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Drawing-Fundamentals",
+      "Digital-Drawing",
+      "drawing_fundamentals2",
+      "Portrait-Drawing",
+      "Anatomy-Drawing",
+      "Caricature-Drawing",
+      "digital_painting_advanced",
+      "How-To-present-Your-Work",
+      "Introduction_To_Midjourney_Ai",
+      "Digital_Painting_With_AI"
+    ]
+  },
+  {
+    "slug": "storyboard_artist",
+    "title": "رسام كارتون وستوري بورد",
+    "image": "/assets/images/learning-paths/2c3cd1ab9228840604eae20c8d2a9853.jpg",
+    "coursesCount": "11 كورسات",
+    "href": "storyboard_artist.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Cartoon_Character_Design",
+      "Cartoon_fundamentals_for_face_drawing",
+      "Characters-Design",
+      "Zbrush_Fundamentals",
+      "Fundamentals_Of_ZBrush",
+      "Storyboarding",
+      "How-To-present-Your-Work",
+      "Whiteboard_Animation_VideoScribe",
+      "Comic_Drawing",
+      "Model_Sheet_Design"
+    ]
+  },
+  {
+    "slug": "3d_designer",
+    "title": "3D مصمم",
+    "image": "/assets/images/learning-paths/067ecf3a0744b04c4630c0936d189ae2.jpg",
+    "coursesCount": "6 كورسات",
+    "href": "3d_designer.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Basics-of-illustrator",
+      "Fundamentals_of_blender",
+      "Zbrush_Fundamentals",
+      "Fundamentals_Of_ZBrush",
+      "Blender_Level_2"
+    ]
+  },
+  {
+    "slug": "social_media_specialist",
+    "title": "مسوق اليكتروني على السوشيال ميديا",
+    "image": "/assets/images/learning-paths/7b3ba4e80603b8ca7f6b6857869806e5.jpg",
+    "coursesCount": "16 كورسات",
+    "href": "social_media_specialist.html",
+    "description": "",
+    "courses": [
+      "guide-to-Marketing",
+      "Social-Media-Management-101",
+      "Social-Media-Strategy",
+      "Fundamental_Of_Digital_Marketing",
+      "Marketing_Skills",
+      "How_to_create_marketing_plan",
+      "Strategy_From_Planning_To_Execution",
+      "Startup_Marketing",
+      "Copywriting_Skills_And_Technique",
+      "Fundamentals_of_SocialMedia_Marketing",
+      "Brand_Strategy",
+      "Facebook_Ads",
+      "Facebook_ADs_Analysis",
+      "Facebook_Custom_Audience_Explained",
+      "Understanding_Strategy",
+      "Marketeer_AtoZ"
+    ]
+  },
+  {
+    "slug": "SEO_Specialist",
+    "title": "SEO Specialist",
+    "image": "/assets/images/learning-paths/4056119f39e1c4d3025de3e43a1343a6.jpg",
+    "coursesCount": "2 كورسات",
+    "href": "SEO_Specialist.html",
+    "description": "",
+    "courses": [
+      "SEO",
+      "SEO-Funnel-Optimization"
+    ]
+  },
+  {
+    "slug": "Media_Buyer",
+    "title": "مسؤول إعلانات إلكترونية",
+    "image": "/assets/images/learning-paths/57f05cffc3089e754af42d23af8ab984.jpg",
+    "coursesCount": "6 كورسات",
+    "href": "Media_Buyer.html",
+    "description": "",
+    "courses": [
+      "Facebook-ads-for-real-estate",
+      "TikTok_for_business",
+      "Google_Ads",
+      "Facebook_Ads",
+      "Facebook_ADs_Analysis",
+      "Facebook_Custom_Audience_Explained"
+    ]
+  },
+  {
+    "slug": "youtube_content_creation",
+    "title": "تعلم لتصنع محتوى مرئي على اليوتيوب",
+    "image": "/assets/images/learning-paths/03e2058785664b3bd2f3cf449d2bae35.jpg",
+    "coursesCount": "17 كورسات",
+    "href": "youtube_content_creation.html",
+    "description": "",
+    "courses": [
+      "Writing-fundamentals-part-one",
+      "writing-fundamentals-part-two",
+      "learning_how_to_write_3",
+      "Comedy_Writing",
+      "Low_Budget_Content_Creation",
+      "kareemelsayedvlogs",
+      "how_to_shine_on_youtube_the_easy_way",
+      "The_Art_Of_Content_Creation",
+      "Content_Creation_By_AI",
+      "Reels_From_Scratch_To_Screen",
+      "Youtube_Channel_Creation",
+      "The_Origins_Of_Scriptwriting",
+      "Content_Secrets_Easy_Trending_Guide",
+      "Whiteboard_Animation_VideoScribe",
+      "Introduction_To_Video_Production",
+      "Video_Production_Toolkit_Intermediate",
+      "Video_and_audio_editing_essentials_for_content_creators"
+    ]
+  },
+  {
+    "slug": "photo_retoucher",
+    "title": "Photo Retoucher",
+    "image": "/assets/images/learning-paths/939690e5db80226f0db2da57fad5bcb9.jpg",
+    "coursesCount": "3 كورسات",
+    "href": "photo_retoucher.html",
+    "description": "",
+    "courses": [
+      "lightroom_essentials",
+      "Advanced_Photo_Retouch_2",
+      "Portrait_Photography"
+    ]
+  },
+  {
+    "slug": "mobile_photography",
+    "title": "التصوير بالموبايل",
+    "image": "/assets/images/learning-paths/732612f78359b44bc383ac935c159a34.jpg",
+    "coursesCount": "7 كورسات",
+    "href": "mobile_photography.html",
+    "description": "",
+    "courses": [
+      "Mobile_Photography",
+      "Basics_of_mobile_photography",
+      "Video_and_audio_editing_essentials_for_content_creators",
+      "Photography_basics",
+      "Commercial_photography_advanced_lighting",
+      "professional_design_using_Canva",
+      "CapCut_Video_Editing"
+    ]
+  },
+  {
+    "slug": "product_photography",
+    "title": "مصور منتجات",
+    "image": "/assets/images/learning-paths/669eb699a77c3bd5a4108b369118d19a.jpg",
+    "coursesCount": "5 كورسات",
+    "href": "product_photography.html",
+    "description": "",
+    "courses": [
+      "Commercial_photography_advanced_lighting",
+      "food_styling",
+      "food_photography",
+      "lightroom_essentials",
+      "Advanced_Photo_Retouch_2"
+    ]
+  },
+  {
+    "slug": "filmmaker",
+    "title": "صانع افلام",
+    "image": "/assets/images/learning-paths/308d14999f90465c5a2242cf6fc617a2.jpg",
+    "coursesCount": "4 كورسات",
+    "href": "filmmaker.html",
+    "description": "",
+    "courses": [
+      "one_man_crew",
+      "script_writing",
+      "Video_and_audio_editing_essentials_for_content_creators",
+      "The_Origins_Of_Scriptwriting"
+    ]
+  },
+  {
+    "slug": "video_editor",
+    "title": "مونتير",
+    "image": "/assets/images/learning-paths/046cb8908dce7d6632415c7a91ac1667.jpg",
+    "coursesCount": "3 كورسات",
+    "href": "video_editor.html",
+    "description": "",
+    "courses": [
+      "Adobe-Premiere",
+      "Video_Editing_Using_Davinci_Resolve",
+      "CapCut_Video_Editing"
+    ]
+  },
+  {
+    "slug": "entrepreneurship",
+    "title": "مسار ريادة الأعمال",
+    "image": "/assets/images/learning-paths/e96d968b8269bfa2eb843d9efdd2cc36.png",
+    "coursesCount": "15 كورسات",
+    "href": "entrepreneurship.html",
+    "description": "",
+    "courses": [
+      "microsoft-excel",
+      "financial_accounting_basics",
+      "microsoft_excel_v2",
+      "Sales-Skills",
+      "Intro_to_Freelance",
+      "Freelancing_on_Arabic_Platforms"
+    ]
+  },
+  {
+    "slug": "project_management",
+    "title": "مسار إدارة المشروعات",
+    "image": "/assets/images/learning-paths/406358c972405a41c4acb2b5dd927801.png",
+    "coursesCount": "12 كورسات",
+    "href": "project_management.html",
+    "description": "",
+    "courses": [
+      "Project_Management",
+      "Basics_of_Project_Management",
+      "Project_Management_fundamentals",
+      "Meeting_Management",
+      "Emotional_Intelligence",
+      "Conflict_Resolution",
+      "Agile_Management",
+      "Crisis_Management",
+      "Risk_Management",
+      "C_R_M",
+      "Handling_Objection",
+      "Strategic_Management"
+    ]
+  },
+  {
+    "slug": "freelancer",
+    "title": "مسار العمل الحر",
+    "image": "/assets/images/learning-paths/c0702e7fee96650f60e499ea0fb2b131.png",
+    "coursesCount": "14 كورسات",
+    "href": "freelancer.html",
+    "description": "",
+    "courses": [
+      "Intro_to_Freelance",
+      "personal_branding",
+      "organize_and_manage_tasks_by_notion",
+      "Personal_financial_Planing",
+      "Time_Management",
+      "Negotiation_Skills",
+      "linkedin",
+      "LinkedIn_Profile_Building",
+      "Freelancing",
+      "how_to_write_a_professional_cv",
+      "Effective_CV_Writing",
+      "Improve_your_productivity_using_Google_applications",
+      "Prospecting_for_Sales",
+      "How-To-present-Your-Work"
+    ]
+  },
+  {
+    "slug": "Meta_Media_Buyer",
+    "title": "Meta Media Buyer | مدير اعلانات ميتا",
+    "image": "/assets/images/learning-paths/9d730405926cfe404f2e71d9fbe5ddd4.png",
+    "coursesCount": "3 كورسات",
+    "href": "Meta_Media_Buyer.html",
+    "description": "",
+    "courses": [
+      "Facebook_Ads",
+      "Facebook_Custom_Audience_Explained",
+      "Facebook_ADs_Analysis"
+    ]
+  },
+  {
+    "slug": "HR_4level1",
+    "title": "HR",
+    "image": "/assets/images/learning-paths/67b21a329d740_1739725362.jpg",
+    "coursesCount": "6 كورسات",
+    "href": "HR_4level1.html",
+    "description": "",
+    "courses": [
+      "Public_Relationship_Skills",
+      "Negotiation_Skills",
+      "Developing_High_Performance_Teams",
+      "Professional_Email_writing",
+      "Hr_for_non_hr",
+      "Negotiation-Skills"
+    ]
+  },
+  {
+    "slug": "Design_4level1",
+    "title": "Graphic Design",
+    "image": "/assets/images/learning-paths/67b21d8738f22_1739726215.jpg",
+    "coursesCount": "7 كورسات",
+    "href": "Design_4level1.html",
+    "description": "",
+    "courses": [
+      "Basics-of-photoshop",
+      "Basics-of-illustrator",
+      "Logo-Crafting",
+      "Social-Media-Designs",
+      "Introduction_To_Visual_Identity_Design_",
+      "Elements_Of_Graphic_Design",
+      "VideoScribe_Whiteboard_Animation"
+    ]
+  },
+  {
+    "slug": "Photography_4level1",
+    "title": "Photography and Videography",
+    "image": "/assets/images/learning-paths/67b21d350c7c3_1739726133.jpg",
+    "coursesCount": "10 كورسات",
+    "href": "Photography_4level1.html",
+    "description": "",
+    "courses": [
+      "Mobile_Photography",
+      "Commercial_photography_advanced_lighting",
+      "Sound_Recording",
+      "Portrait_Photography",
+      "food_styling",
+      "one_man_crew",
+      "script_writing",
+      "The_Origins_Of_Scriptwriting",
+      "The_Art_Of_Content_Creation",
+      "kareemelsayedvlogs"
+    ]
+  },
+  {
+    "slug": "Programing_4level1",
+    "title": "Programing",
+    "image": "/assets/images/learning-paths/67b21cef14a66_1739726063.jpg",
+    "coursesCount": "11 كورسات",
+    "href": "Programing_4level1.html",
+    "description": "",
+    "courses": [
+      "Html",
+      "css",
+      "JavaScript",
+      "java",
+      "PHP",
+      "php_my_sql",
+      "MYSQL",
+      "jquery",
+      "learning_kotlin_programming_language",
+      "portfolio_template",
+      "create_a_wibsite_by_wuilt"
+    ]
+  },
+  {
+    "slug": "content_4level1",
+    "title": "content creation and writing",
+    "image": "/assets/images/learning-paths/67b21cd21bec0_1739726034.jpg",
+    "coursesCount": "10 كورسات",
+    "href": "content_4level1.html",
+    "description": "",
+    "courses": [
+      "Digital_Copywriting_basics",
+      "Digital_copywriting_Level_2",
+      "Creative_thinking",
+      "How-to-create-viral-content",
+      "Professional_Scriptwriting",
+      "Comedy_Writing",
+      "Knowingly_of_The_Voice_Over",
+      "The_Origins_Of_Scriptwriting",
+      "The_Art_Of_Content_Creation",
+      "kareemelsayedvlogs"
+    ]
+  },
+  {
+    "slug": "Editing_4level1",
+    "title": "Video editing",
+    "image": "/assets/images/learning-paths/67b21cba249a9_1739726010.jpg",
+    "coursesCount": "7 كورسات",
+    "href": "Editing_4level1.html",
+    "description": "",
+    "courses": [
+      "Adobe-Premiere",
+      "Video_Editing_Using_Davinci_Resolve",
+      "Coloring_Using_Davinci_Resolve",
+      "Introduction_To_Video_Production",
+      "Video_Production_Toolkit_Intermediate",
+      "CapCut_Video_Editing",
+      "Advanced_Photo_Retouch_2"
+    ]
+  },
+  {
+    "slug": "Marketing_4level1",
+    "title": "Media buying, SEO, Social Media marketing",
+    "image": "/assets/images/learning-paths/67b21c867bb4c_1739725958.jpg",
+    "coursesCount": "12 كورسات",
+    "href": "Marketing_4level1.html",
+    "description": "",
+    "courses": [
+      "guide-to-Marketing",
+      "Social-Media-Management-101",
+      "Facebook_Ads",
+      "SEO",
+      "Copywriting_Skills_And_Technique",
+      "Google_Ads",
+      "Freelancing_intro",
+      "Marketeer_AtoZ",
+      "Understanding_Strategy",
+      "Strategy_From_Planning_To_Execution",
+      "Facebook_ADs_Analysis",
+      "Facebook_Custom_Audience_Explained"
+    ]
+  }
+]

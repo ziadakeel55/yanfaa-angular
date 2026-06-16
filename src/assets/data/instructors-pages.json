@@ -1,0 +1,890 @@
+{
+  "AbdallahAhmed": {
+    "slug": "AbdallahAhmed",
+    "name": "Abdallah Ahmed",
+    "avatar": "/assets/images/DSC09969.jpg",
+    "courses": []
+  },
+  "AbdelrahmanEraky": {
+    "slug": "AbdelrahmanEraky",
+    "name": "Abdelrahman Eraky",
+    "avatar": "/assets/images/69020e76d1d9e_1761742454.jpg",
+    "courses": []
+  },
+  "AbdullahFarouk": {
+    "slug": "AbdullahFarouk",
+    "name": "Abdullah Farouk",
+    "avatar": "/assets/images/instructors/DSC00406.jpg",
+    "courses": []
+  },
+  "AbdullahNageeb": {
+    "slug": "AbdullahNageeb",
+    "name": "Abdullah Nageeb",
+    "avatar": "/assets/images/69aecbc176a14_1773063105.jpg",
+    "courses": []
+  },
+  "AbdulrahmanElGrawany": {
+    "slug": "AbdulrahmanElGrawany",
+    "name": "Abdulrahman El Grawany",
+    "avatar": "/assets/images/1600.jpg",
+    "courses": []
+  },
+  "AbuBakrMukhtar": {
+    "slug": "AbuBakrMukhtar",
+    "name": "Abu Bakr Mukhtar",
+    "avatar": "/assets/images/instructors/16000.jpg",
+    "courses": []
+  },
+  "AdieHatem": {
+    "slug": "AdieHatem",
+    "name": "Adie Hatem",
+    "avatar": "/assets/images/69b015afe3de2_1773147567.jpg",
+    "courses": []
+  },
+  "Advanced_Data_Analysis_using_Power_BI": {
+    "slug": "Advanced_Data_Analysis_using_Power_BI",
+    "name": "mohamed amr",
+    "avatar": "/assets/images/instructors/Mohed_amr.png",
+    "courses": []
+  },
+  "Advanced_Motion_Graphics": {
+    "slug": "Advanced_Motion_Graphics",
+    "name": "Naiier El-deeb",
+    "avatar": "/assets/images/a6cdbac07a8d2f235fbbadbf34f7c654.png",
+    "courses": []
+  },
+  "Advanced_Motion_Graphics_3": {
+    "slug": "Advanced_Motion_Graphics_3",
+    "name": "Mohamed El Mufty",
+    "avatar": "/assets/images/instructors/22222.png",
+    "courses": []
+  },
+  "Agile_Project_Management": {
+    "slug": "Agile_Project_Management",
+    "name": "Sohaip Hassan",
+    "avatar": "/assets/images/instructors/8ff75de2b042023d8aa209a98a0b5c0f.jpg",
+    "courses": []
+  },
+  "AhmedAbdelkhalek": {
+    "slug": "AhmedAbdelkhalek",
+    "name": "Ahmed Abdelkhalek",
+    "avatar": "/assets/images/69cc23c4ce91c_1774986180.jpg",
+    "courses": []
+  },
+  "AhmedAshraf": {
+    "slug": "AhmedAshraf",
+    "name": "Ahmed Ashraf",
+    "avatar": "/assets/images/ahmed-ashraf.png",
+    "courses": []
+  },
+  "AhmedEid": {
+    "slug": "AhmedEid",
+    "name": "Ahmed Eid",
+    "avatar": "/assets/images/instructors/Ahmed eid.png",
+    "courses": []
+  },
+  "AhmedElGazar": {
+    "slug": "AhmedElGazar",
+    "name": "Ahmed ElGazar",
+    "avatar": "/assets/images/688bb2adc3b50_1753985709.jpg",
+    "courses": []
+  },
+  "AhmedElShrief": {
+    "slug": "AhmedElShrief",
+    "name": "Ahmed El Shrief",
+    "avatar": "/assets/images/d322dcb6aa6edfdc2aaa9ddf02e2da4c.png",
+    "courses": []
+  },
+  "AhmedHashem": {
+    "slug": "AhmedHashem",
+    "name": "Ahmed Hashem",
+    "avatar": "/assets/images/796040f2b5240ff491ad709c8bfe6080.jpg",
+    "courses": []
+  },
+  "AhmedRadwan": {
+    "slug": "AhmedRadwan",
+    "name": "Ahmed Radwan",
+    "avatar": "/assets/images/instructors/3dfaf72141ca9cf5d9565f12c47d7b70.jpg",
+    "courses": []
+  },
+  "AhmedSamir": {
+    "slug": "AhmedSamir",
+    "name": "Ahmed Samir",
+    "avatar": "/assets/images/698cb19181729_1770828177.jpg",
+    "courses": []
+  },
+  "Amazon_FBA": {
+    "slug": "Amazon_FBA",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "AmrBishbeshy": {
+    "slug": "AmrBishbeshy",
+    "name": "Amr Bishbeshy",
+    "avatar": "images/default-author.png",
+    "courses": []
+  },
+  "Animation_Scriptwriting": {
+    "slug": "Animation_Scriptwriting",
+    "name": "Malak Hatem",
+    "avatar": "/assets/images/67795e09ceb9a_1736007177.jpg",
+    "courses": []
+  },
+  "AymanMahmoud": {
+    "slug": "AymanMahmoud",
+    "name": "Ayman Mahmoud",
+    "avatar": "/assets/images/DSC09967.jpg",
+    "courses": []
+  },
+  "BegadElish": {
+    "slug": "BegadElish",
+    "name": "Begad Eleish",
+    "avatar": "/assets/images/instructors/Website-thumbnail (6) - Copy.jpg",
+    "courses": []
+  },
+  "Body_Language_And_The_Art_Of_Influence": {
+    "slug": "Body_Language_And_The_Art_Of_Influence",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Brand_Strategy": {
+    "slug": "Brand_Strategy",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "Business_Development": {
+    "slug": "Business_Development",
+    "name": "Sohaip Hassan",
+    "avatar": "/assets/images/instructors/8ff75de2b042023d8aa209a98a0b5c0f.jpg",
+    "courses": []
+  },
+  "Business_English_Level_1": {
+    "slug": "Business_English_Level_1",
+    "name": "Mustafa Abdelsabour",
+    "avatar": "/assets/images/instructors/a15f5d4943c94d7a393ccd98eefe5372.png",
+    "courses": []
+  },
+  "CapCut_Video_Editing": {
+    "slug": "CapCut_Video_Editing",
+    "name": "Ahmed Abu Elfadl",
+    "avatar": "/assets/images/instructors/abo el fadl.png",
+    "courses": []
+  },
+  "Career_Spring": {
+    "slug": "Career_Spring",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Certified_Information_Systems_Auditor_CISA": {
+    "slug": "Certified_Information_Systems_Auditor_CISA",
+    "name": "mohamed amr",
+    "avatar": "/assets/images/instructors/Mohed_amr.png",
+    "courses": []
+  },
+  "CoachAser": {
+    "slug": "CoachAser",
+    "name": "Coach Aser",
+    "avatar": "/assets/images/DSC09992.jpg",
+    "courses": []
+  },
+  "Content_Creation_By_AI": {
+    "slug": "Content_Creation_By_AI",
+    "name": "Malak Hatem",
+    "avatar": "/assets/images/67795e09ceb9a_1736007177.jpg",
+    "courses": []
+  },
+  "Create_Dynamic_Dashboards_Using_Microsoft_Excel": {
+    "slug": "Create_Dynamic_Dashboards_Using_Microsoft_Excel",
+    "name": "Sohaip Hassan",
+    "avatar": "/assets/images/instructors/8ff75de2b042023d8aa209a98a0b5c0f.jpg",
+    "courses": []
+  },
+  "Creating_Your_AI_Digital_Twin": {
+    "slug": "Creating_Your_AI_Digital_Twin",
+    "name": "Malak Hatem",
+    "avatar": "/assets/images/67795e09ceb9a_1736007177.jpg",
+    "courses": []
+  },
+  "Customer_Success_Management_Course": {
+    "slug": "Customer_Success_Management_Course",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Data_Analysis_using_Power_BI": {
+    "slug": "Data_Analysis_using_Power_BI",
+    "name": "Sohaip Hassan",
+    "avatar": "/assets/images/instructors/8ff75de2b042023d8aa209a98a0b5c0f.jpg",
+    "courses": []
+  },
+  "Data_Visualization_and_Storytelling_Using_Tableau": {
+    "slug": "Data_Visualization_and_Storytelling_Using_Tableau",
+    "name": "mohamed amr",
+    "avatar": "/assets/images/instructors/Mohed_amr.png",
+    "courses": []
+  },
+  "Developing_Tolerance": {
+    "slug": "Developing_Tolerance",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "DoaaHamza": {
+    "slug": "DoaaHamza",
+    "name": "Doaa Hamza",
+    "avatar": "/assets/images/e03ee5f41d3cf3b1b4a7b7c4d7180d56.png",
+    "courses": []
+  },
+  "eBay_Dropshipping": {
+    "slug": "eBay_Dropshipping",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "EmanFadel": {
+    "slug": "EmanFadel",
+    "name": "Eman Fadel",
+    "avatar": "/assets/images/instructors/3N7A2642 - Copy.jpg",
+    "courses": []
+  },
+  "EmanSobhy": {
+    "slug": "EmanSobhy",
+    "name": "Eman Sobhy",
+    "avatar": "/assets/images/DSC00077.jpg",
+    "courses": []
+  },
+  "End_User_Security_Awareness": {
+    "slug": "End_User_Security_Awareness",
+    "name": "mohamed amr",
+    "avatar": "/assets/images/instructors/Mohed_amr.png",
+    "courses": []
+  },
+  "English_American_Accent": {
+    "slug": "English_American_Accent",
+    "name": "Mustafa Abdelsabour",
+    "avatar": "/assets/images/instructors/a15f5d4943c94d7a393ccd98eefe5372.png",
+    "courses": []
+  },
+  "EslamMedhat": {
+    "slug": "EslamMedhat",
+    "name": "Eslam Medhat",
+    "avatar": "/assets/images/e785b070a80529fdc91769354a8d9a3f.png",
+    "courses": []
+  },
+  "EslamRezo": {
+    "slug": "EslamRezo",
+    "name": "Eslam Rezo",
+    "avatar": "/assets/images/69a5c2d6bb192_1772470998.jpg",
+    "courses": []
+  },
+  "Event_Success_Secrets": {
+    "slug": "Event_Success_Secrets",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "GerminMagdy": {
+    "slug": "GerminMagdy",
+    "name": "Germin Magdy",
+    "avatar": "/assets/images/ab28e4a250c85991724282ce59274d13.jpg",
+    "courses": []
+  },
+  "HadeelSayeed": {
+    "slug": "HadeelSayeed",
+    "name": "Hadeel sayed Ahmad",
+    "avatar": "/assets/images/instructors/hadeel 160.jpg",
+    "courses": []
+  },
+  "HaidyMostafa": {
+    "slug": "HaidyMostafa",
+    "name": "Haidy Mostafa",
+    "avatar": "/assets/images/DSC09988.jpg",
+    "courses": []
+  },
+  "Handling_Difficult_Personalities": {
+    "slug": "Handling_Difficult_Personalities",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "HossamAntika": {
+    "slug": "HossamAntika",
+    "name": "Hossam Antikka",
+    "avatar": "/assets/images/9a0bfa64330d11e6abcb955cfbb4215d.jpeg",
+    "courses": []
+  },
+  "How_To_Create_Winning_Ads": {
+    "slug": "How_To_Create_Winning_Ads",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "How_To_Learn_A_Language_From_The_Internet": {
+    "slug": "How_To_Learn_A_Language_From_The_Internet",
+    "name": "Mustafa Abdelsabour",
+    "avatar": "/assets/images/instructors/a15f5d4943c94d7a393ccd98eefe5372.png",
+    "courses": []
+  },
+  "Human_Courtesy": {
+    "slug": "Human_Courtesy",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "IbrahimGamal": {
+    "slug": "IbrahimGamal",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Introduction_To_Advanced_Thinking_And_Learning": {
+    "slug": "Introduction_To_Advanced_Thinking_And_Learning",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Introduction_To_Art_Direction": {
+    "slug": "Introduction_To_Art_Direction",
+    "name": "Mohamed El Mufty",
+    "avatar": "/assets/images/instructors/22222.png",
+    "courses": []
+  },
+  "Introduction_To_Midjourney_Ai": {
+    "slug": "Introduction_To_Midjourney_Ai",
+    "name": "Mohamed El Mufty",
+    "avatar": "/assets/images/instructors/22222.png",
+    "courses": []
+  },
+  "Introduction_To_Video_Production": {
+    "slug": "Introduction_To_Video_Production",
+    "name": "Ahmed Abu Elfadl",
+    "avatar": "/assets/images/instructors/abo el fadl.png",
+    "courses": []
+  },
+  "IslamElsadek": {
+    "slug": "IslamElsadek",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "JosephHanany ": {
+    "slug": "JosephHanany ",
+    "name": "Joseph Hanany",
+    "avatar": "/assets/images/instructors/21a751ddac78adc4a2f2ff43e1d280e5.jpg",
+    "courses": []
+  },
+  "Kareem_Elsayed": {
+    "slug": "Kareem_Elsayed",
+    "name": "Kareem Elsayed",
+    "avatar": "/assets/images/instructors/Kariem el sayed.png",
+    "courses": []
+  },
+  "KholodKamal": {
+    "slug": "KholodKamal",
+    "name": "Kholod Kamal",
+    "avatar": "/assets/images/DSC00495.jpg",
+    "courses": []
+  },
+  "LamyaaKhaled": {
+    "slug": "LamyaaKhaled",
+    "name": "Lamyaa Khaled",
+    "avatar": "/assets/images/DSC09995.jpg",
+    "courses": []
+  },
+  "Leadership_Excellence_Development_Program": {
+    "slug": "Leadership_Excellence_Development_Program",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Leader_All_The_way": {
+    "slug": "Leader_All_The_way",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Learning_French_A1": {
+    "slug": "Learning_French_A1",
+    "name": "Ahmed ElGazar",
+    "avatar": "/assets/images/688bb2adc3b50_1753985709.jpg",
+    "courses": []
+  },
+  "Learning_French_A2": {
+    "slug": "Learning_French_A2",
+    "name": "Ahmed ElGazar",
+    "avatar": "/assets/images/688bb2adc3b50_1753985709.jpg",
+    "courses": []
+  },
+  "Learning_French_B1": {
+    "slug": "Learning_French_B1",
+    "name": "Ahmed ElGazar",
+    "avatar": "/assets/images/688bb2adc3b50_1753985709.jpg",
+    "courses": []
+  },
+  "Learning_German_Level_1": {
+    "slug": "Learning_German_Level_1",
+    "name": "Abdullah Farouk",
+    "avatar": "/assets/images/instructors/DSC00406.jpg",
+    "courses": []
+  },
+  "Learning_German_Level_1_Revision": {
+    "slug": "Learning_German_Level_1_Revision",
+    "name": "Abdullah Farouk",
+    "avatar": "/assets/images/instructors/DSC00406.jpg",
+    "courses": []
+  },
+  "Learning_German_Level_2_Revision": {
+    "slug": "Learning_German_Level_2_Revision",
+    "name": "Abdullah Farouk",
+    "avatar": "/assets/images/instructors/DSC00406.jpg",
+    "courses": []
+  },
+  "Learning_German_Level_3": {
+    "slug": "Learning_German_Level_3",
+    "name": "Abdullah Farouk",
+    "avatar": "/assets/images/instructors/DSC00406.jpg",
+    "courses": []
+  },
+  "Learning_Russian_A1": {
+    "slug": "Learning_Russian_A1",
+    "name": "Abdelrahman Eraky",
+    "avatar": "/assets/images/69020e76d1d9e_1761742454.jpg",
+    "courses": []
+  },
+  "Learning_Russian_A2": {
+    "slug": "Learning_Russian_A2",
+    "name": "Abdelrahman Eraky",
+    "avatar": "/assets/images/69020e76d1d9e_1761742454.jpg",
+    "courses": []
+  },
+  "Learning_Spanish_A1": {
+    "slug": "Learning_Spanish_A1",
+    "name": "Ahmed Radwan",
+    "avatar": "/assets/images/instructors/3dfaf72141ca9cf5d9565f12c47d7b70.jpg",
+    "courses": []
+  },
+  "Learning_Spanish_A1_Revision": {
+    "slug": "Learning_Spanish_A1_Revision",
+    "name": "Ahmed Radwan",
+    "avatar": "/assets/images/instructors/3dfaf72141ca9cf5d9565f12c47d7b70.jpg",
+    "courses": []
+  },
+  "Learning_Spanish_A2": {
+    "slug": "Learning_Spanish_A2",
+    "name": "Ahmed Radwan",
+    "avatar": "/assets/images/instructors/3dfaf72141ca9cf5d9565f12c47d7b70.jpg",
+    "courses": []
+  },
+  "Learning_Spanish_A2_Revision": {
+    "slug": "Learning_Spanish_A2_Revision",
+    "name": "Ahmed Radwan",
+    "avatar": "/assets/images/instructors/3dfaf72141ca9cf5d9565f12c47d7b70.jpg",
+    "courses": []
+  },
+  "Learning_Spanish_B1": {
+    "slug": "Learning_Spanish_B1",
+    "name": "Ahmed Radwan",
+    "avatar": "/assets/images/instructors/3dfaf72141ca9cf5d9565f12c47d7b70.jpg",
+    "courses": []
+  },
+  "Learning_Spanish_B1_Revision": {
+    "slug": "Learning_Spanish_B1_Revision",
+    "name": "Ahmed Radwan",
+    "avatar": "/assets/images/instructors/3dfaf72141ca9cf5d9565f12c47d7b70.jpg",
+    "courses": []
+  },
+  "Learning_Spanish_B2": {
+    "slug": "Learning_Spanish_B2",
+    "name": "Ahmed Radwan",
+    "avatar": "/assets/images/instructors/3dfaf72141ca9cf5d9565f12c47d7b70.jpg",
+    "courses": []
+  },
+  "Learning_Spanish_B2_Revision": {
+    "slug": "Learning_Spanish_B2_Revision",
+    "name": "Mustafa Abdelsabour",
+    "avatar": "/assets/images/instructors/a15f5d4943c94d7a393ccd98eefe5372.png",
+    "courses": []
+  },
+  "Learning_Turkish_A1": {
+    "slug": "Learning_Turkish_A1",
+    "name": "Ahmed Samir",
+    "avatar": "/assets/images/698cb19181729_1770828177.jpg",
+    "courses": []
+  },
+  "Learning_Turkish_A2": {
+    "slug": "Learning_Turkish_A2",
+    "name": "Ahmed Samir",
+    "avatar": "/assets/images/698cb19181729_1770828177.jpg",
+    "courses": []
+  },
+  "Learning_Turkish_B1": {
+    "slug": "Learning_Turkish_B1",
+    "name": "Ahmed Samir",
+    "avatar": "/assets/images/698cb19181729_1770828177.jpg",
+    "courses": []
+  },
+  "Learning_Turkish_B2": {
+    "slug": "Learning_Turkish_B2",
+    "name": "Ahmed Samir",
+    "avatar": "/assets/images/698cb19181729_1770828177.jpg",
+    "courses": []
+  },
+  "LinkedIn_Profile_Building": {
+    "slug": "LinkedIn_Profile_Building",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "MahmoudHassan": {
+    "slug": "MahmoudHassan",
+    "name": "Mahmoud Hassan",
+    "avatar": "/assets/images/instructors/mahmoud.png",
+    "courses": []
+  },
+  "MalakHatem": {
+    "slug": "MalakHatem",
+    "name": "Malak Hatem",
+    "avatar": "/assets/images/67795e09ceb9a_1736007177.jpg",
+    "courses": []
+  },
+  "MariamHeikal": {
+    "slug": "MariamHeikal",
+    "name": "Mariam Heikal",
+    "avatar": "/assets/images/DSC09972.jpg",
+    "courses": []
+  },
+  "MariamHisham": {
+    "slug": "MariamHisham",
+    "name": "Mariam Hisham",
+    "avatar": "/assets/images/instructors/Screen-Shot-2020-05-26-at-1.30.07-AM.png",
+    "courses": []
+  },
+  "Marketing_Skills": {
+    "slug": "Marketing_Skills",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "Model_Sheet_Design": {
+    "slug": "Model_Sheet_Design",
+    "name": "Mohamed El Mufty",
+    "avatar": "/assets/images/instructors/22222.png",
+    "courses": []
+  },
+  "MohamedAbdelsattar": {
+    "slug": "MohamedAbdelsattar",
+    "name": "Mohamed Abdelsattar",
+    "avatar": "/assets/images/instructors/69f4110c2d0d5_1777602828.jpg",
+    "courses": []
+  },
+  "MohamedAmr": {
+    "slug": "MohamedAmr",
+    "name": "mohamed amr",
+    "avatar": "/assets/images/instructors/Mohed_amr.png",
+    "courses": []
+  },
+  "MohamedDaoud": {
+    "slug": "MohamedDaoud",
+    "name": "Mohamed Daoud",
+    "avatar": "/assets/images/instructors/6808ff6513e30_1745420133.jpg",
+    "courses": []
+  },
+  "MohamedElMofty ": {
+    "slug": "MohamedElMofty ",
+    "name": "Mohamed El Mufty",
+    "avatar": "/assets/images/instructors/22222.png",
+    "courses": []
+  },
+  "MohamedFarid": {
+    "slug": "MohamedFarid",
+    "name": "Mohamed Farid",
+    "avatar": "/assets/images/instructors/MOHAMED FARIED copy.png",
+    "courses": []
+  },
+  "MohamedHossam": {
+    "slug": "MohamedHossam",
+    "name": "Mohamed Hossam",
+    "avatar": "/assets/images/instructors/Mohamed_hossam.png",
+    "courses": []
+  },
+  "MohamedIsmail": {
+    "slug": "MohamedIsmail",
+    "name": "Mohamed Ismail",
+    "avatar": "/assets/images/instructors/mohmed_ismail_no_price_copy.png",
+    "courses": []
+  },
+  "MohamedMonem": {
+    "slug": "MohamedMonem",
+    "name": "Mohamed Monem",
+    "avatar": "/assets/images/instructors/men3m.png",
+    "courses": []
+  },
+  "MohamedNafez": {
+    "slug": "MohamedNafez",
+    "name": "Mohamed Nafez",
+    "avatar": "/assets/images/DSC00398.jpg",
+    "courses": []
+  },
+  "Mohamed_ALhussaini": {
+    "slug": "Mohamed_ALhussaini",
+    "name": "Mohamed ALhussaini",
+    "avatar": "/assets/images/DSC09985.jpg",
+    "courses": []
+  },
+  "MostafaAafa": {
+    "slug": "MostafaAafa",
+    "name": "Mostafa Aafa",
+    "avatar": "/assets/images/instructors/aafa photo.jpg",
+    "courses": []
+  },
+  "Motion_Graphics_For_Beginners": {
+    "slug": "Motion_Graphics_For_Beginners",
+    "name": "Mohamed El Mufty",
+    "avatar": "/assets/images/instructors/22222.png",
+    "courses": []
+  },
+  "MustafaAbdelsabour": {
+    "slug": "MustafaAbdelsabour",
+    "name": "Mustafa Abdelsabour",
+    "avatar": "/assets/images/instructors/a15f5d4943c94d7a393ccd98eefe5372.png",
+    "courses": []
+  },
+  "NagyAbdelghany": {
+    "slug": "NagyAbdelghany",
+    "name": "Nagy Abdelghany",
+    "avatar": "images/6a072a88be29e_1778854536.jpg",
+    "courses": []
+  },
+  "NaiierEldeeb": {
+    "slug": "NaiierEldeeb",
+    "name": "Naiier El-deeb",
+    "avatar": "/assets/images/a6cdbac07a8d2f235fbbadbf34f7c654.png",
+    "courses": []
+  },
+  "NermeenElzokm": {
+    "slug": "NermeenElzokm",
+    "name": "Nermeen Elzokm",
+    "avatar": "/assets/images/instructors/160 nermeen.jpg",
+    "courses": []
+  },
+  "Networking_Fundamentals": {
+    "slug": "Networking_Fundamentals",
+    "name": "mohamed amr",
+    "avatar": "/assets/images/instructors/Mohed_amr.png",
+    "courses": []
+  },
+  "NourhanEzz": {
+    "slug": "NourhanEzz",
+    "name": "Nourhan Ezz",
+    "avatar": "/assets/images/68f6b4ad174d4_1760998573.jpg",
+    "courses": []
+  },
+  "OmarAmr": {
+    "slug": "OmarAmr",
+    "name": "Omar Amr",
+    "avatar": "/assets/images/b480a6c43b5f8f40424def459ccbe529.png",
+    "courses": []
+  },
+  "OmarSaraya": {
+    "slug": "OmarSaraya",
+    "name": "Omar Saraya",
+    "avatar": "/assets/images/DSC00239.jpg",
+    "courses": []
+  },
+  "Personal_Finance_Management": {
+    "slug": "Personal_Finance_Management",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "PolaHany": {
+    "slug": "PolaHany",
+    "name": "Pola Hany",
+    "avatar": "/assets/images/DSC09980.jpg",
+    "courses": []
+  },
+  "Portrait_Photography": {
+    "slug": "Portrait_Photography",
+    "name": "Ahmed Abu Elfadl",
+    "avatar": "/assets/images/instructors/abo el fadl.png",
+    "courses": []
+  },
+  "Product_Management": {
+    "slug": "Product_Management",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "RagaeySameh": {
+    "slug": "RagaeySameh",
+    "name": "ragaey sameh",
+    "avatar": "/assets/images/306014867_1295425157659468_479580353252842437_n.jpg",
+    "courses": []
+  },
+  "Real_Estate_Marketing": {
+    "slug": "Real_Estate_Marketing",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "Reels_From_Scratch_To_Screen": {
+    "slug": "Reels_From_Scratch_To_Screen",
+    "name": "Sherif Ibrahim",
+    "avatar": "/assets/images/instructors/Shrief_ibrahiem.png",
+    "courses": []
+  },
+  "RehabHany": {
+    "slug": "RehabHany",
+    "name": "Rehab Hany",
+    "avatar": "/assets/images/d1e8b5461d3cf12ed98e927ef47e3627.jpg",
+    "courses": []
+  },
+  "SalmanAnwar": {
+    "slug": "SalmanAnwar",
+    "name": "Salman Anwar",
+    "avatar": "/assets/images/instructors/salman-profile-picture.png",
+    "courses": []
+  },
+  "SalyRaafat": {
+    "slug": "SalyRaafat",
+    "name": "Saly Raafat",
+    "avatar": "/assets/images/67f784133dbea4401693798d55100f75.png",
+    "courses": []
+  },
+  "SamehArafa": {
+    "slug": "SamehArafa",
+    "name": "sameh arafa",
+    "avatar": "/assets/images/4f52e9fcc50b53fcd5f95e9e6d6d789f.png",
+    "courses": []
+  },
+  "SaraFarahat": {
+    "slug": "SaraFarahat",
+    "name": "Sara Farahat",
+    "avatar": "/assets/images/DSC00452.jpg",
+    "courses": []
+  },
+  "Secrets_Of_Digital_Printing": {
+    "slug": "Secrets_Of_Digital_Printing",
+    "name": "Mohamed El Mufty",
+    "avatar": "/assets/images/instructors/22222.png",
+    "courses": []
+  },
+  "SherifIbrahim": {
+    "slug": "SherifIbrahim",
+    "name": "Sherif Ibrahim",
+    "avatar": "/assets/images/instructors/Shrief_ibrahiem.png",
+    "courses": []
+  },
+  "Shopify_Drop_Shipping": {
+    "slug": "Shopify_Drop_Shipping",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "SohaipHassan": {
+    "slug": "SohaipHassan",
+    "name": "Sohaip Hassan",
+    "avatar": "/assets/images/instructors/8ff75de2b042023d8aa209a98a0b5c0f.jpg",
+    "courses": []
+  },
+  "Start_Your_Small_Project_From_Idea_To_Profitability": {
+    "slug": "Start_Your_Small_Project_From_Idea_To_Profitability",
+    "name": "Sohaip Hassan",
+    "avatar": "/assets/images/instructors/8ff75de2b042023d8aa209a98a0b5c0f.jpg",
+    "courses": []
+  },
+  "Stop_Selling_Start_Storytelling": {
+    "slug": "Stop_Selling_Start_Storytelling",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "Strategic_Leadership": {
+    "slug": "Strategic_Leadership",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Stress_Management": {
+    "slug": "Stress_Management",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "TarekEzzat": {
+    "slug": "TarekEzzat",
+    "name": "Tarek Ezzat",
+    "avatar": "/assets/images/instructors/Screenshot_2024-06-28_081058.png",
+    "courses": []
+  },
+  "Ten_Steps_To_Gain_Customer_Trust": {
+    "slug": "Ten_Steps_To_Gain_Customer_Trust",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "Ten_Steps_To_Start_Successful_Business": {
+    "slug": "Ten_Steps_To_Start_Successful_Business",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "The_Origins_Of_Scriptwriting": {
+    "slug": "The_Origins_Of_Scriptwriting",
+    "name": "Malak Hatem",
+    "avatar": "/assets/images/67795e09ceb9a_1736007177.jpg",
+    "courses": []
+  },
+  "The_Stages_Of_Grief": {
+    "slug": "The_Stages_Of_Grief",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Time_Management_And_Increase_Productivity": {
+    "slug": "Time_Management_And_Increase_Productivity",
+    "name": "Ibrahim Gamal",
+    "avatar": "/assets/images/instructors/3N7A2632-Enhanced-SR - Copy.jpg",
+    "courses": []
+  },
+  "Understanding_Strategy": {
+    "slug": "Understanding_Strategy",
+    "name": "Islam Elsadek",
+    "avatar": "/assets/images/instructors/qwqw.png",
+    "courses": []
+  },
+  "Video_Production_Toolkit_Intermediate": {
+    "slug": "Video_Production_Toolkit_Intermediate",
+    "name": "Ahmed Abu Elfadl",
+    "avatar": "/assets/images/instructors/abo el fadl.png",
+    "courses": []
+  },
+  "VladlenaIbrahim": {
+    "slug": "VladlenaIbrahim",
+    "name": "Vladlena Ibrahim",
+    "avatar": "/assets/images/instructors/d2c29aef358ec2f198ad9ff86f11e8fd.png",
+    "courses": []
+  },
+  "Voice_Over_And_Advertising": {
+    "slug": "Voice_Over_And_Advertising",
+    "name": "Malak Hatem",
+    "avatar": "/assets/images/67795e09ceb9a_1736007177.jpg",
+    "courses": []
+  },
+  "YoussefFlefel": {
+    "slug": "YoussefFlefel",
+    "name": "Yusuf FLIFL",
+    "avatar": "/assets/images/69c245c74692a_1774339527.jpg",
+    "courses": []
+  },
+  "Youtube_Channel_Creation": {
+    "slug": "Youtube_Channel_Creation",
+    "name": "Malak Hatem",
+    "avatar": "/assets/images/67795e09ceb9a_1736007177.jpg",
+    "courses": []
+  }
+}

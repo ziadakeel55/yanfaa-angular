@@ -1,0 +1,6 @@
+aiohttp==3.9.1
+Pyrogram==2.0.106
+TgCrypto==1.2.5
+reportlab==4.0.8
+qrcode==7.4.2
+Pillow==10.1.0

@@ -1,0 +1,51 @@
+footer {
+  padding: 64px 0;
+}
+
+@media (max-width: 767px) {
+  footer {
+    padding: 20px;
+  }
+}
+
+footer .socialMediaFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 40px 0 0 0;
+}
+
+footer .socialMediaFooter li {
+  width: 45px !important;
+  height: 45px !important;
+  line-height: 45px !important;
+  border-radius: 50% !important;
+  background-color: #30304d !important;
+  margin: 0 8px !important;
+  padding: 0 !important;
+  display: inline-block !important;
+}
+
+footer .socialMediaFooter li a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+}
+
+footer .socialMediaFooter li a i, footer .socialMediaFooter li a svg {
+  width: 20px !important;
+  height: 20px !important;
+  display: inline-block !important;
+  fill: #cfd3dc !important;
+  color: #cfd3dc !important;
+  transition: color 0.2s ease-in-out, fill 0.2s ease-in-out;
+}
+
+footer .socialMediaFooter li a:hover svg {
+  fill: #fff !important;
+  color: #fff !important;
+}

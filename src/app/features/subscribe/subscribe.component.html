@@ -1,0 +1,68 @@
+<section class="p-md-5" dir="rtl">
+  <div class="container pricing pb-5">
+    <div class="text-right row justify-content-center my-5">
+      <div class="col-md-8">
+        <h2 class="mb-4">اختيار الباقة</h2>
+        <div class="packages-wrapper d-flex flex-wrap">
+          
+          <!-- Annual Plan Card -->
+          <div class="card rounded-xl mb-3 plan-card yanfaa-border text-center d-flex flex-column justify-content-between card-duration-12" (click)="selectPlan('annual')">
+            <div>
+              <h2 class="mb-5 text-white">سنوي<span>الأكثر مبيعاً</span></h2>
+              <h4 class="text-gray text-decoration-line-through" *ngIf="hasDiscount"> {{ annualOriginalPrice }} جنيه/شهريًا </h4>
+              <h3><span class="font-weight-bold">{{ annualPrice }}</span> جنيه/شهريًا </h3>
+              <div class="hr-line my-4"></div>
+              <div class="annual-badge mb-5 align-self-center">
+                 * تدفع <span class="font-weight-bold">{{ annualTotal }} <ng-container *ngIf="hasDiscount">بدلا من</ng-container></span><span class="text-decoration-line-through" *ngIf="hasDiscount"> 2000</span> جنيه/<span>سنويًا</span>
+              </div>
+            </div>
+            <button class="cta-button cta-button-primary" type="button" (click)="subscribePlan('annual', $event)">اشتراك الآن</button>
+          </div>
+
+          <!-- Monthly Plan Card -->
+          <div class="card rounded-xl mb-3 plan-card yanfaa-border text-center d-flex flex-column justify-content-between" (click)="selectPlan('monthly')">
+            <div>
+              <h2 class="mb-5 text-dark">شهري</h2>
+              <h3 class="my-5"><span class="font-weight-bold">{{ monthlyPrice }}</span> جنيه/شهريًا </h3>
+            </div>
+            <button class="cta-button cta-button-primary" type="button" (click)="subscribePlan('monthly', $event)">اشتراك الآن</button>
+          </div>
+
+        </div>
+
+        <!-- Coupon Input Row -->
+        <div class="card px-md-5 py-5 my-5 rounded-xl">
+          <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <h2 class="text-center mb-4 mb-md-0 discount-question">هل لديك كوبون خصم ؟</h2>
+            <coupon-popup>
+              <section class="coupon">
+                <form novalidate (submit)="applyCouponCode($event)">
+                  <div class="form-group d-flex align-items-center position-relative">
+                    <input name="promo" type="text" class="form-control" [(ngModel)]="couponInput" />
+                    <button type="submit" class="btn btn-primary btn-lg bubbly-button">
+                      <span>تفعيل</span>
+                    </button>
+                  </div>
+                </form>
+              </section>
+            </coupon-popup>
+          </div>
+        </div>
+
+        <p class="h5 text-center my-5">في حالة وجود اشتراك مفعل يبدأ الاشتراك الجديد بشكل تلقائي بعد انتهاء الاشتراك الحالي.</p>
+
+        <!-- Features -->
+        <div class="mb-5 list">
+          <h2 class="mb-4">مميزات الاشتراك</h2>
+          <div class="card p-5 rounded-xl">
+            <ul class="list mx-2">
+              <li>مئات الدورات التدريبية من افضل المدربين</li>
+              <li class="my-4">استفادة غير محدودة بكل الدورات التدريبية في كل المجالات وبعدد مرات غير محدود طول فترة الاشتراك</li>
+              <li>شهادة بعد اتمام كل دورة.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

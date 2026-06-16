@@ -1,0 +1,85 @@
+.troubleshooting-container {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 60vh;
+  direction: rtl;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+#surveyContainer {
+  direction: rtl;
+}
+
+/* Override SurveyJS theme to match Yanfaa */
+::ng-deep .sd-root-modern {
+  --sd-base-unit: 8px;
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+::ng-deep .sd-title {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+::ng-deep .sd-body {
+  padding: 0 !important;
+}
+
+::ng-deep .sd-page {
+  padding: 0 !important;
+}
+
+::ng-deep .sd-question__title {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+}
+
+::ng-deep .sd-input {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+::ng-deep .sd-btn {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+::ng-deep .sd-navigation__complete-btn,
+::ng-deep .sd-navigation__next-btn {
+  background-color: #19b394 !important;
+  border-color: #19b394 !important;
+}
+
+::ng-deep .sd-navigation__complete-btn:hover,
+::ng-deep .sd-navigation__next-btn:hover {
+  background-color: #148f77 !important;
+  border-color: #148f77 !important;
+}
+
+::ng-deep .sd-progress__bar {
+  background-color: #19b394 !important;
+}
+
+::ng-deep .sd-item--checked .sd-item__decorator {
+  background-color: #19b394 !important;
+  border-color: #19b394 !important;
+}
+
+::ng-deep .sd-header__text h3,
+::ng-deep .sd-header__text h5 {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+::ng-deep .sv-string-viewer {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+::ng-deep .sd-selectbase__item {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}

@@ -271,7 +271,8 @@ def main():
     server.on_startup.append(on_startup)
     server.on_cleanup.append(on_cleanup)
 
-    web.run_app(server, host='0.0.0.0', port=8080)
+    port = int(os.environ.get('PORT', 8080))
+    web.run_app(server, host='0.0.0.0', port=port)
 
 
 if __name__ == '__main__':

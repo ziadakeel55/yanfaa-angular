@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: yanfaa-backend
+    env: python
+    buildCommand: pip install -r server/requirements.txt
+    startCommand: python server/stream_server.py
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PORT
+        value: "8080"

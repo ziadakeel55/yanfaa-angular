@@ -16,5 +16,13 @@
         }
       ]
     }
-  ]
+  ],
+  "experimentalServices": {
+    "yanfaa-backend": {
+      "type": "web",
+      "routePrefix": "/",
+      "framework": "angular",
+      "buildCommand": "pip install -r server/requirements.txt"
+    }
+  }
 }

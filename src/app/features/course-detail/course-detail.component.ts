@@ -7,6 +7,7 @@ import { CourseService } from '../../core/services/course.service';
 import { CountryService } from '../../core/services/country.service';
 import { AuthService } from '../../core/services/auth.service';
 import { Course } from '../../core/models/course.model';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-course-detail',
@@ -53,7 +54,7 @@ export class CourseDetailComponent implements OnInit, AfterViewInit {
     
     const msgId = video.telegramMsgId || video.id;
     const chatId = video.telegramChatId || '-1003753481209';
-    return this.sanitizer.bypassSecurityTrustResourceUrl(`http://localhost:8080/stream/${chatId}/${msgId}`);
+    return this.sanitizer.bypassSecurityTrustResourceUrl(`${environment.streamBaseUrl}/stream/${chatId}/${msgId}`);
   }
 
   get currentVideoUrlString(): string {

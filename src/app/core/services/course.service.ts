@@ -3,6 +3,7 @@ import { Course, Instructor, Certificate } from '../models/course.model';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { inject } from '@angular/core';
 import { AuthService } from './auth.service';
+import { environment } from '../../../environments/environment';
 
 // Import extracted data
 import learningPathsData from '../../../assets/data/learning-paths.json';
@@ -183,9 +184,7 @@ export class CourseService {
       if (maxReached >= totalLessons - 1) {
         // Fix existing relative certificate URLs
         if (c.certificateUrl && c.certificateUrl.startsWith('/certificates')) {
-          c.certificateUrl = window.location.origin.includes('localhost') 
-            ? `http://localhost:8080${c.certificateUrl}` 
-            : `${window.location.origin}${c.certificateUrl}`;
+          c.certificateUrl = `${environment.streamBaseUrl}${c.certificateUrl}`;
           updated = true;
         }
 
@@ -195,7 +194,7 @@ export class CourseService {
             const user = this.authService.currentUser;
             const username = user?.firstName ? `${user.firstName} ${user.lastName || ''}`.trim() : 'مستخدم ينفع';
             
-            const response = await fetch('http://localhost:8080/api/generate_certificate', {
+            const response = await fetch(`${environment.streamBaseUrl}/api/generate_certificate`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({

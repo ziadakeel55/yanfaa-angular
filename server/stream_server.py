@@ -163,7 +163,7 @@ def generate_certificate(username, coursename, dateofissue, classlength, founder
     doc = fitz.open(TEMPLATE_PATH)
     page = doc[0]
 
-    font_file = "C:/Windows/Fonts/arial.ttf"
+    font_file = os.path.join(BASE_DIR, "arial.ttf")
     font_name = "arial"
     page.insert_font(fontname=font_name, fontfile=font_file)
 
@@ -271,7 +271,7 @@ def main():
     server.on_startup.append(on_startup)
     server.on_cleanup.append(on_cleanup)
 
-    port = int(os.environ.get('PORT', 8080))
+    port = int(os.environ.get('PORT', 7860))
     web.run_app(server, host='0.0.0.0', port=port)
 
 

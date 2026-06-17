@@ -75,7 +75,7 @@ export class CourseDetailComponent implements OnInit, AfterViewInit {
     }
     
     if (!msgId || msgId <= 0) return '';
-    return `http://localhost:8080/stream/${chatId}/${msgId}`;
+    return `${environment.streamBaseUrl}/stream/${chatId}/${msgId}`;
   }
 
 
